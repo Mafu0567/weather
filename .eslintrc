@@ -1,0 +1,44 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true,
+      "jest": true
+    },
+    "globals": {
+      "fetchMock": "readonly"
+    },
+    "plugins": ["react-hooks"],
+    "extends": [
+      "standard",
+      "standard-jsx",
+      "plugin:jsx-a11y/recommended"
+    ],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "rules": {
+      "prefer-const": "error",
+      "max-len": ["error", {
+        "code": 160
+      }],
+      "no-console": ["error", { "allow": ["warn", "error"] }],
+      "react/jsx-wrap-multilines": ["error", {
+        "declaration": "parens-new-line",
+        "assignment": "parens-new-line",
+        "return": "parens-new-line",
+        "arrow": "parens-new-line"}],
+      "jsx-a11y/anchor-is-valid": [ "error", {
+        "components": [ "Link", "ArticleLink", "FrontLink" ],
+        "specialLink": [ "hrefLeft", "hrefRight" ],
+        "aspects": [ "invalidHref", "preferButton" ]
+      }],
+      "import/newline-after-import": "error",
+      "import/no-unresolved": "error",
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn"
+    }
+  }
