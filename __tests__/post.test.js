@@ -1,4 +1,4 @@
-import { getServerSideProps } from '../pages/post/[id]'
+import { getServerSideProps } from '../pages/post/[id].tsx'
 
 describe('PostPage getServerSideProps', () => {
   it('should return data and staticData', async () => {

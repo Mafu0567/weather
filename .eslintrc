@@ -1,5 +1,5 @@
 {
-    "parser": "babel-eslint",
+    "parser": "@typescript-eslint/parser",
     "env": {
       "browser": true,
       "es6": true,
@@ -9,11 +9,16 @@
     "globals": {
       "fetchMock": "readonly"
     },
-    "plugins": ["react-hooks"],
+    "plugins": [
+      "@typescript-eslint",
+      "react-hooks"
+    ],
     "extends": [
       "standard",
       "standard-jsx",
-      "plugin:jsx-a11y/recommended"
+      "plugin:jsx-a11y/recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
     ],
     "settings": {
       "react": {
@@ -25,7 +30,7 @@
       "max-len": ["error", {
         "code": 160
       }],
-      "no-console": ["error", { "allow": ["warn", "error"] }],
+      "no-console": "error",
       "react/jsx-wrap-multilines": ["error", {
         "declaration": "parens-new-line",
         "assignment": "parens-new-line",
@@ -36,9 +41,16 @@
         "specialLink": [ "hrefLeft", "hrefRight" ],
         "aspects": [ "invalidHref", "preferButton" ]
       }],
+      "func-style": "error",
+      "prefer-arrow-callback": "error",
       "import/newline-after-import": "error",
       "import/no-unresolved": "error",
       "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn"
+      "react-hooks/exhaustive-deps": "warn",
+      "@typescript-eslint/no-unused-vars": "error",
+      "@typescript-eslint/explicit-function-return-type": "off",
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/no-use-before-define": "off",
+      "@typescript-eslint/no-var-requires": "off"
     }
   }

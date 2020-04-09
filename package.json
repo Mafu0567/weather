@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "lint": "eslint --max-warnings 0 '**/*.{js,jsx}'",
+    "lint": "eslint --max-warnings 0 './**/*.{js,jsx,ts,tsx}'",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "dev": "NODE_OPTIONS='--inspect' next dev",
@@ -11,7 +11,7 @@
     "start": "next start"
   },
   "lint-staged": {
-    "**/*.{js,jsx}": "eslint"
+    "**/*.{js,jsx,ts,tsx}}": "eslint"
   },
   "husky": {
     "hooks": {
@@ -24,6 +24,9 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@types/react": "^16.9.32",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
     "babel-eslint": "^10.1.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
@@ -40,6 +43,7 @@
     "jest-fetch-mock": "^3.0.3",
     "lint-staged": "^10.1.2",
     "standard": "^14.3.3",
-    "stylelint-config-standard": "^20.0.0"
+    "stylelint-config-standard": "^20.0.0",
+    "typescript": "^3.8.3"
   }
 }

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Error from 'next/error'
 import fetch from 'node-fetch'
 
-const Post = (props) => {
+const Post = (props: {error: Error}) => {
   if ('error' in props) return <Error {...props.error} />
 
   const { title, lead } = props.data
@@ -20,7 +20,7 @@ const Post = (props) => {
   )
 }
 
-export async function getServerSideProps (context) {
+export const getServerSideProps = async (context) => {
   const { query } = context
   const id = query?.id
   const endpoint = process.env.feedEnv + '/post/' + id
