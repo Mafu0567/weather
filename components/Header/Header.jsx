@@ -20,9 +20,7 @@ const Header = () => {
     <header className={header}>
       <ul className={list}>
         <HeaderLink href='/index' as='/'>Home</HeaderLink>
-        <HeaderLink as='/post/1' href={postPageLine}>post 1</HeaderLink>
-        <HeaderLink as='/post/2' href={postPageLine}>post 2</HeaderLink>
-        <HeaderLink as='/post/3' href={postPageLine}>404</HeaderLink>
+        <HeaderLink href='/weather'>Météo</HeaderLink>
       </ul>
     </header>
   )

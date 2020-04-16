@@ -3,10 +3,10 @@ import Head from 'next/head'
 const Home = () => (
   <div className='container'>
     <Head>
-      <title>Startups disco</title>
+      <title>Météo</title>
       <link rel='icon' href='/favicon.ico' />
     </Head>
-    <h1>hello world</h1>
+    <h1>Météo</h1>
   </div>
 )
 
