@@ -1,8 +1,50 @@
 {
   "name": "Genève",
+  "now": {
+    "TempAvg": 10,
+    "TempMin": 8,
+    "TempMax": 13
+  },
   "monday": {
     "00:00": {
-      "TempMin": 8
+      "TempAvg": 13,
+      "TempMin": 8,
+      "TempMax": 20
+    },
+    "03:00": {
+      "TempAvg": 13,
+      "TempMin": 8,
+      "TempMax": 20
+    },
+    "06:00": {
+      "TempAvg": 13,
+      "TempMin": 8,
+      "TempMax": 20
+    },
+    "09:00": {
+      "TempAvg": 13,
+      "TempMin": 8,
+      "TempMax": 20
+    },
+    "12:00": {
+      "TempAvg": 13,
+      "TempMin": 8,
+      "TempMax": 20
+    },
+    "15:00": {
+      "TempAvg": 13,
+      "TempMin": 8,
+      "TempMax": 20
+    },
+    "18:00": {
+      "TempAvg": 13,
+      "TempMin": 8,
+      "TempMax": 20
+    },
+    "21:00": {
+      "TempAvg": 13,
+      "TempMin": 8,
+      "TempMax": 20
     }
   }
 }
