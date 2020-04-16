@@ -7,6 +7,7 @@ const Home = () => (
       <link rel='icon' href='/favicon.ico' />
     </Head>
     <h1>Météo</h1>
+    <p>Cliquez sur un lien dans l'en-tête</p>
   </div>
 )
 

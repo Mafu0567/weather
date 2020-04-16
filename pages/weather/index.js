@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import ListCities from '../../components/ListCities/ListCities'
 
 export default function Home() {
   return (
@@ -8,18 +9,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Météo</h1>
-      <input type="text" placeholder="Search.." />
-      <ul>
-        <li>Ville</li>
-        <li>Ville</li>
-        <li>Ville</li>
-        <li>Ville</li>
-        <li>Ville</li>
-        <li>Ville</li>
-        <li>Ville</li>
-        <li>Ville</li>
-      </ul>
-      <img src="/simplechmap.svg" alt="carte de la suisse" />
+      <div className="grid">
+        <input type="text" placeholder="Search.." />
+        <ListCities />
+        <img src="/simplechmap.svg" alt="carte de la suisse" />
+      </div>
     </div>
   )
 }
