@@ -15,12 +15,12 @@ const HeaderLink = ({ href, as, children }) => {
 
 const Header = () => {
   const { header, list } = styles
-  const postPageLine = '/post/[id]'
   return (
     <header className={header}>
       <ul className={list}>
         <HeaderLink href='/index' as='/'>Home</HeaderLink>
-        <HeaderLink href='/weather'>Météo</HeaderLink>
+        <HeaderLink href='/weather/index.js' as='/weather'>Météo</HeaderLink>
+        <HeaderLink href='/weather/swiss/index.js' as='/weather/swiss'>Suisse</HeaderLink>
       </ul>
     </header>
   )

@@ -1,0 +1,22 @@
+.cls1 {
+  fill: none;
+  stroke-width: 3px;
+}
+
+.cls1,
+.cls2 {
+  stroke: #1d1d1b;
+  stroke-miterlimit: 10;
+}
+
+.cls2 {
+  fill: #53abe0;
+  stroke-width: 2px;
+}
+
+.cls3 {
+  isolation: isolate;
+  font-size: 2rem;
+  font-family: ArialMT, Arial;
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 0 2px 0 #fff;
+}

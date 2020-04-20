@@ -1,0 +1,33 @@
+.cls1 {
+  fill: #76ccf4;
+}
+
+.cls1,
+.cls2,
+.cls3 {
+  stroke: #1d1d1b;
+  stroke-miterlimit: 10;
+}
+
+.cls2 {
+  fill: #fff;
+}
+
+.cls3 {
+  fill: #47bfef;
+}
+
+.cls4 {
+  isolation: isolate;
+  font-size: 12px;
+  font-family: ArialMT, Arial;
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 0 2px 0 #fff;
+}
+
+.cls5 {
+  fill: #1d1d1b;
+}
+
+.cls6 {
+  fill: #e41d13;
+}
