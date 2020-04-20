@@ -107,7 +107,7 @@ const SimpleChMap = () => {
     <g id="marker-Genève">
       <circle id="ville-Genève" cx="35.79" cy="425.51" r="6.83" /><text id="ville-Genève-2" data-name="ville-Genève"
         className={cls3} transform="translate(14.78 455.51)">{geneve.name}</text><text className={cls3}
-        transform="translate(32.45 410.51)">{geneve.monday["12:00"].condition}</text></g>
+        transform="translate(32.45 410.51)"></text></g>
     <g id="marker-Bâle">
       <circle id="ville-Bâle" cx="298.7" cy="66.99" r="6.83" /><text id="ville-Bâle-2" data-name="ville-Bâle"
         className={cls3} transform="translate(286.69 96.99)">Bâle</text><text className={cls3}

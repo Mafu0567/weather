@@ -1,305 +1,242 @@
 {
   "name": "Morges",
-  "monday": {
+  "0": {
+    "00:00": {
+      "condition": "sun",
+      "tempsavg": 14
+    },
+    "03:00": {
+      "condition": "rain",
+      "tempsavg": 16
+    },
+    "06:00": {
+      "condition": "rain",
+      "tempsavg": 15
+    },
+    "09:00": {
+      "condition": "rain",
+      "tempsavg": 14
+    },
+    "12:00": {
+      "condition": "sun",
+      "tempsavg": 22
+    },
+    "15:00": {
+      "condition": "sun",
+      "tempsavg": 24
+    },
+    "18:00": {
+      "condition": "sun",
+      "tempsavg": 13
+    },
+    "21:00": {
+      "condition": "rain",
+      "tempsavg": 17
+    }
+  },
+  "1": {
     "00:00": {
       "condition": "cloud",
-      "tempsmin": 14,
-      "tempsmax": 21,
+      "tempsavg": 11
+    },
+    "03:00": {
+      "condition": "sun",
+      "tempsavg": 15
+    },
+    "06:00": {
+      "condition": "cloud",
+      "tempsavg": 20
+    },
+    "09:00": {
+      "condition": "cloud",
+      "tempsavg": 14
+    },
+    "12:00": {
+      "condition": "sun",
+      "tempsavg": 22
+    },
+    "15:00": {
+      "condition": "cloud",
+      "tempsavg": 20
+    },
+    "18:00": {
+      "condition": "cloud",
+      "tempsavg": 16
+    },
+    "21:00": {
+      "condition": "sun",
+      "tempsavg": 17
+    }
+  },
+  "2": {
+    "00:00": {
+      "condition": "rain",
       "tempsavg": 15
     },
     "03:00": {
       "condition": "sun",
-      "tempsmin": 15,
-      "tempsmax": 21,
-      "tempsavg": 22
+      "tempsavg": 15
+    },
+    "06:00": {
+      "condition": "rain",
+      "tempsavg": 14
+    },
+    "09:00": {
+      "condition": "sun",
+      "tempsavg": 19
+    },
+    "12:00": {
+      "condition": "cloud",
+      "tempsavg": 21
+    },
+    "15:00": {
+      "condition": "cloud",
+      "tempsavg": 20
+    },
+    "18:00": {
+      "condition": "sun",
+      "tempsavg": 16
+    },
+    "21:00": {
+      "condition": "rain",
+      "tempsavg": 14
+    }
+  },
+  "3": {
+    "00:00": {
+      "condition": "cloud",
+      "tempsavg": 13
+    },
+    "03:00": {
+      "condition": "rain",
+      "tempsavg": 18
     },
     "06:00": {
       "condition": "sun",
-      "tempsmin": 11,
-      "tempsmax": 25,
+      "tempsavg": 19
+    },
+    "09:00": {
+      "condition": "rain",
+      "tempsavg": 19
+    },
+    "12:00": {
+      "condition": "cloud",
+      "tempsavg": 20
+    },
+    "15:00": {
+      "condition": "cloud",
+      "tempsavg": 20
+    },
+    "18:00": {
+      "condition": "rain",
+      "tempsavg": 15
+    },
+    "21:00": {
+      "condition": "rain",
+      "tempsavg": 18
+    }
+  },
+  "4": {
+    "00:00": {
+      "condition": "rain",
+      "tempsavg": 15
+    },
+    "03:00": {
+      "condition": "sun",
+      "tempsavg": 16
+    },
+    "06:00": {
+      "condition": "sun",
+      "tempsavg": 14
+    },
+    "09:00": {
+      "condition": "rain",
+      "tempsavg": 19
+    },
+    "12:00": {
+      "condition": "cloud",
+      "tempsavg": 19
+    },
+    "15:00": {
+      "condition": "rain",
+      "tempsavg": 20
+    },
+    "18:00": {
+      "condition": "rain",
+      "tempsavg": 15
+    },
+    "21:00": {
+      "condition": "cloud",
+      "tempsavg": 11
+    }
+  },
+  "5": {
+    "00:00": {
+      "condition": "sun",
+      "tempsavg": 14
+    },
+    "03:00": {
+      "condition": "sun",
+      "tempsavg": 14
+    },
+    "06:00": {
+      "condition": "sun",
+      "tempsavg": 14
+    },
+    "09:00": {
+      "condition": "rain",
+      "tempsavg": 16
+    },
+    "12:00": {
+      "condition": "sun",
+      "tempsavg": 15
+    },
+    "15:00": {
+      "condition": "sun",
+      "tempsavg": 16
+    },
+    "18:00": {
+      "condition": "cloud",
+      "tempsavg": 17
+    },
+    "21:00": {
+      "condition": "sun",
+      "tempsavg": 14
+    }
+  },
+  "6": {
+    "00:00": {
+      "condition": "rain",
+      "tempsavg": 16
+    },
+    "03:00": {
+      "condition": "sun",
+      "tempsavg": 14
+    },
+    "06:00": {
+      "condition": "sun",
       "tempsavg": 16
     },
     "09:00": {
       "condition": "sun",
-      "tempsmin": 11,
-      "tempsmax": 25,
+      "tempsavg": 17
+    },
+    "12:00": {
+      "condition": "sun",
       "tempsavg": 23
     },
-    "12:00": {
-      "condition": "sun",
-      "tempsmin": 13,
-      "tempsmax": 18,
-      "tempsavg": 15
-    },
     "15:00": {
       "condition": "sun",
-      "tempsmin": 14,
-      "tempsmax": 24,
-      "tempsavg": 19
+      "tempsavg": 24
     },
     "18:00": {
-      "condition": "cloud",
-      "tempsmin": 14,
-      "tempsmax": 17,
-      "tempsavg": 12
+      "condition": "sun",
+      "tempsavg": 13
     },
     "21:00": {
-      "condition": "rain",
-      "tempsmin": 13,
-      "tempsmax": 25,
-      "tempsavg": 17
-    }
-  },
-  "tuesday": {
-    "00:00": {
-      "TempAvg": 21,
-      "TempMin": 20,
-      "TempMax": 21
-    },
-    "03:00": {
-      "TempAvg": 23,
-      "TempMin": 10,
-      "TempMax": 19
-    },
-    "06:00": {
-      "TempAvg": 15,
-      "TempMin": 23,
-      "TempMax": 22
-    },
-    "09:00": {
-      "TempAvg": 8,
-      "TempMin": 15,
-      "TempMax": 19
-    },
-    "12:00": {
-      "TempAvg": 0,
-      "TempMin": 25,
-      "TempMax": 0
-    },
-    "15:00": {
-      "TempAvg": 8,
-      "TempMin": 9,
-      "TempMax": 13
-    },
-    "18:00": {
-      "TempAvg": 2,
-      "TempMin": 8,
-      "TempMax": 24
-    },
-    "21:00": {
-      "TempAvg": 22,
-      "TempMin": 13,
-      "TempMax": 8
-    }
-  },
-  "wednesday": {
-    "00:00": {
-      "TempAvg": 3,
-      "TempMin": 8,
-      "TempMax": 3
-    },
-    "03:00": {
-      "TempAvg": 25,
-      "TempMin": 16,
-      "TempMax": 24
-    },
-    "06:00": {
-      "TempAvg": 20,
-      "TempMin": 18,
-      "TempMax": 16
-    },
-    "09:00": {
-      "TempAvg": 13,
-      "TempMin": 3,
-      "TempMax": 5
-    },
-    "12:00": {
-      "TempAvg": 1,
-      "TempMin": 1,
-      "TempMax": 25
-    },
-    "15:00": {
-      "TempAvg": 11,
-      "TempMin": 0,
-      "TempMax": 3
-    },
-    "18:00": {
-      "TempAvg": 23,
-      "TempMin": 24,
-      "TempMax": 19
-    },
-    "21:00": {
-      "TempAvg": 20,
-      "TempMin": 23,
-      "TempMax": 2
-    }
-  },
-  "thursday": {
-    "00:00": {
-      "TempAvg": 5,
-      "TempMin": 23,
-      "TempMax": 23
-    },
-    "03:00": {
-      "TempAvg": 19,
-      "TempMin": 22,
-      "TempMax": 13
-    },
-    "06:00": {
-      "TempAvg": 23,
-      "TempMin": 19,
-      "TempMax": 20
-    },
-    "09:00": {
-      "TempAvg": 11,
-      "TempMin": 17,
-      "TempMax": 8
-    },
-    "12:00": {
-      "TempAvg": 20,
-      "TempMin": 13,
-      "TempMax": 1
-    },
-    "15:00": {
-      "TempAvg": 16,
-      "TempMin": 10,
-      "TempMax": 23
-    },
-    "18:00": {
-      "TempAvg": 6,
-      "TempMin": 1,
-      "TempMax": 13
-    },
-    "21:00": {
-      "TempAvg": 25,
-      "TempMin": 2,
-      "TempMax": 8
-    }
-  },
-  "friday": {
-    "00:00": {
-      "TempAvg": 6,
-      "TempMin": 21,
-      "TempMax": 17
-    },
-    "03:00": {
-      "TempAvg": 2,
-      "TempMin": 0,
-      "TempMax": 19
-    },
-    "06:00": {
-      "TempAvg": 20,
-      "TempMin": 23,
-      "TempMax": 2
-    },
-    "09:00": {
-      "TempAvg": 11,
-      "TempMin": 17,
-      "TempMax": 19
-    },
-    "12:00": {
-      "TempAvg": 6,
-      "TempMin": 18,
-      "TempMax": 2
-    },
-    "15:00": {
-      "TempAvg": 23,
-      "TempMin": 0,
-      "TempMax": 1
-    },
-    "18:00": {
-      "TempAvg": 14,
-      "TempMin": 11,
-      "TempMax": 10
-    },
-    "21:00": {
-      "TempAvg": 7,
-      "TempMin": 1,
-      "TempMax": 16
-    }
-  },
-  "saturday": {
-    "00:00": {
-      "TempAvg": 2,
-      "TempMin": 20,
-      "TempMax": 20
-    },
-    "03:00": {
-      "TempAvg": 8,
-      "TempMin": 13,
-      "TempMax": 11
-    },
-    "06:00": {
-      "TempAvg": 5,
-      "TempMin": 18,
-      "TempMax": 9
-    },
-    "09:00": {
-      "TempAvg": 0,
-      "TempMin": 10,
-      "TempMax": 23
-    },
-    "12:00": {
-      "TempAvg": 21,
-      "TempMin": 6,
-      "TempMax": 23
-    },
-    "15:00": {
-      "TempAvg": 9,
-      "TempMin": 0,
-      "TempMax": 0
-    },
-    "18:00": {
-      "TempAvg": 18,
-      "TempMin": 17,
-      "TempMax": 11
-    },
-    "21:00": {
-      "TempAvg": 21,
-      "TempMin": 21,
-      "TempMax": 24
-    }
-  },
-  "sunday": {
-    "00:00": {
-      "TempAvg": 24,
-      "TempMin": 25,
-      "TempMax": 15
-    },
-    "03:00": {
-      "TempAvg": 4,
-      "TempMin": 10,
-      "TempMax": 0
-    },
-    "06:00": {
-      "TempAvg": 7,
-      "TempMin": 25,
-      "TempMax": 20
-    },
-    "09:00": {
-      "TempAvg": 18,
-      "TempMin": 4,
-      "TempMax": 0
-    },
-    "12:00": {
-      "TempAvg": 3,
-      "TempMin": 17,
-      "TempMax": 3
-    },
-    "15:00": {
-      "TempAvg": 12,
-      "TempMin": 10,
-      "TempMax": 13
-    },
-    "18:00": {
-      "TempAvg": 14,
-      "TempMin": 22,
-      "TempMax": 3
-    },
-    "21:00": {
-      "TempAvg": 9,
-      "TempMin": 7,
-      "TempMax": 1
+      "condition": "sun",
+      "tempsavg": 14
+
     }
   }
 }
