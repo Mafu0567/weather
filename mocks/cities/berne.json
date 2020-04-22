@@ -1,5 +1,6 @@
 {
   "name": "Berne",
+  "slug": "berne",
   "0": {
     "00:00": {
       "condition": "cloud",

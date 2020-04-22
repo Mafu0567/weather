@@ -37,7 +37,7 @@
         "aspects": [ "invalidHref", "preferButton" ]
       }],
       "import/newline-after-import": "error",
-      "import/no-unresolved": "error",
+      "import/no-unresolved": 0,
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn"
     }

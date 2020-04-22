@@ -1,5 +1,6 @@
 {
   "name": "Sion",
+  "slug": "sion",
   "monday": {
     "00:00": {
       "condition": "cloud",
