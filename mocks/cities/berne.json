@@ -1,242 +1,247 @@
 {
   "name": "Berne",
   "slug": "berne",
-  "0": {
-    "00:00": {
-      "condition": "cloud",
-      "tempsavg": 12
-    },
-    "03:00": {
-      "condition": "sun",
-      "tempsavg": 12
-    },
-    "06:00": {
-      "condition": "rain",
-      "tempsavg": 19
-    },
-    "09:00": {
-      "condition": "cloud",
-      "tempsavg": 20
-    },
-    "12:00": {
-      "condition": "cloud",
-      "tempsavg": 24
-    },
-    "15:00": {
-      "condition": "rain",
-      "tempsavg": 23
-    },
-    "18:00": {
-      "condition": "cloud",
-      "tempsavg": 15
-    },
-    "21:00": {
-      "condition": "cloud",
-      "tempsavg": 16
-    }
+  "current": {
+
   },
-  "1": {
-    "00:00": {
-      "condition": "rain",
-      "tempsavg": 16
+  "forecast": {
+    "0": {
+      "00:00": {
+        "condition": "cloud",
+        "temp": 12
+      },
+      "03:00": {
+        "condition": "sun",
+        "temp": 12
+      },
+      "06:00": {
+        "condition": "rain",
+        "temp": 19
+      },
+      "09:00": {
+        "condition": "cloud",
+        "temp": 20
+      },
+      "12:00": {
+        "condition": "cloud",
+        "temp": 24
+      },
+      "15:00": {
+        "condition": "rain",
+        "temp": 23
+      },
+      "18:00": {
+        "condition": "cloud",
+        "temp": 15
+      },
+      "21:00": {
+        "condition": "cloud",
+        "temp": 16
+      }
     },
-    "03:00": {
-      "condition": "rain",
-      "tempsavg": 16
+    "1": {
+      "00:00": {
+        "condition": "rain",
+        "temp": 16
+      },
+      "03:00": {
+        "condition": "rain",
+        "temp": 16
+      },
+      "06:00": {
+        "condition": "rain",
+        "temp": 17
+      },
+      "09:00": {
+        "condition": "sun",
+        "temp": 19
+      },
+      "12:00": {
+        "condition": "rain",
+        "temp": 21
+      },
+      "15:00": {
+        "condition": "rain",
+        "temp": 23
+      },
+      "18:00": {
+        "condition": "sun",
+        "temp": 18
+      },
+      "21:00": {
+        "condition": "cloud",
+        "temp": 11
+      }
     },
-    "06:00": {
-      "condition": "rain",
-      "tempsavg": 17
+    "2": {
+      "00:00": {
+        "condition": "sun",
+        "temp": 12
+      },
+      "03:00": {
+        "condition": "sun",
+        "temp": 14
+      },
+      "06:00": {
+        "condition": "cloud",
+        "temp": 20
+      },
+      "09:00": {
+        "condition": "sun",
+        "temp": 20
+      },
+      "12:00": {
+        "condition": "rain",
+        "temp": 25
+      },
+      "15:00": {
+        "condition": "cloud",
+        "temp": 24
+      },
+      "18:00": {
+        "condition": "sun",
+        "temp": 15
+      },
+      "21:00": {
+        "condition": "rain",
+        "temp": 18
+      }
     },
-    "09:00": {
-      "condition": "sun",
-      "tempsavg": 19
+    "3": {
+      "00:00": {
+        "condition": "sun",
+        "temp": 10
+      },
+      "03:00": {
+        "condition": "rain",
+        "temp": 12
+      },
+      "06:00": {
+        "condition": "rain",
+        "temp": 19
+      },
+      "09:00": {
+        "condition": "rain",
+        "temp": 19
+      },
+      "12:00": {
+        "condition": "sun",
+        "temp": 18
+      },
+      "15:00": {
+        "condition": "rain",
+        "temp": 22
+      },
+      "18:00": {
+        "condition": "cloud",
+        "temp": 17
+      },
+      "21:00": {
+        "condition": "rain",
+        "temp": 11
+      }
     },
-    "12:00": {
-      "condition": "rain",
-      "tempsavg": 21
+    "4": {
+      "00:00": {
+        "condition": "rain",
+        "temp": 16
+      },
+      "03:00": {
+        "condition": "rain",
+        "temp": 16
+      },
+      "06:00": {
+        "condition": "sun",
+        "temp": 13
+      },
+      "09:00": {
+        "condition": "cloud",
+        "temp": 18
+      },
+      "12:00": {
+        "condition": "cloud",
+        "temp": 17
+      },
+      "15:00": {
+        "condition": "sun",
+        "temp": 15
+      },
+      "18:00": {
+        "condition": "cloud",
+        "temp": 17
+      },
+      "21:00": {
+        "condition": "cloud",
+        "temp": 12
+      }
     },
-    "15:00": {
-      "condition": "rain",
-      "tempsavg": 23
+    "5": {
+      "00:00": {
+        "condition": "cloud",
+        "temp": 10
+      },
+      "03:00": {
+        "condition": "cloud",
+        "temp": 12
+      },
+      "06:00": {
+        "condition": "cloud",
+        "temp": 15
+      },
+      "09:00": {
+        "condition": "sun",
+        "temp": 14
+      },
+      "12:00": {
+        "condition": "sun",
+        "temp": 22
+      },
+      "15:00": {
+        "condition": "sun",
+        "temp": 24
+      },
+      "18:00": {
+        "condition": "cloud",
+        "temp": 16
+      },
+      "21:00": {
+        "condition": "rain",
+        "temp": 11
+      }
     },
-    "18:00": {
-      "condition": "sun",
-      "tempsavg": 18
-    },
-    "21:00": {
-      "condition": "cloud",
-      "tempsavg": 11
-    }
-  },
-  "2": {
-    "00:00": {
-      "condition": "sun",
-      "tempsavg": 12
-    },
-    "03:00": {
-      "condition": "sun",
-      "tempsavg": 14
-    },
-    "06:00": {
-      "condition": "cloud",
-      "tempsavg": 20
-    },
-    "09:00": {
-      "condition": "sun",
-      "tempsavg": 20
-    },
-    "12:00": {
-      "condition": "rain",
-      "tempsavg": 25
-    },
-    "15:00": {
-      "condition": "cloud",
-      "tempsavg": 24
-    },
-    "18:00": {
-      "condition": "sun",
-      "tempsavg": 15
-    },
-    "21:00": {
-      "condition": "rain",
-      "tempsavg": 18
-    }
-  },
-  "3": {
-    "00:00": {
-      "condition": "sun",
-      "tempsavg": 10
-    },
-    "03:00": {
-      "condition": "rain",
-      "tempsavg": 12
-    },
-    "06:00": {
-      "condition": "rain",
-      "tempsavg": 19
-    },
-    "09:00": {
-      "condition": "rain",
-      "tempsavg": 19
-    },
-    "12:00": {
-      "condition": "sun",
-      "tempsavg": 18
-    },
-    "15:00": {
-      "condition": "rain",
-      "tempsavg": 22
-    },
-    "18:00": {
-      "condition": "cloud",
-      "tempsavg": 17
-    },
-    "21:00": {
-      "condition": "rain",
-      "tempsavg": 11
-    }
-  },
-  "4": {
-    "00:00": {
-      "condition": "rain",
-      "tempsavg": 16
-    },
-    "03:00": {
-      "condition": "rain",
-      "tempsavg": 16
-    },
-    "06:00": {
-      "condition": "sun",
-      "tempsavg": 13
-    },
-    "09:00": {
-      "condition": "cloud",
-      "tempsavg": 18
-    },
-    "12:00": {
-      "condition": "cloud",
-      "tempsavg": 17
-    },
-    "15:00": {
-      "condition": "sun",
-      "tempsavg": 15
-    },
-    "18:00": {
-      "condition": "cloud",
-      "tempsavg": 17
-    },
-    "21:00": {
-      "condition": "cloud",
-      "tempsavg": 12
-    }
-  },
-  "5": {
-    "00:00": {
-      "condition": "cloud",
-      "tempsavg": 10
-    },
-    "03:00": {
-      "condition": "cloud",
-      "tempsavg": 12
-    },
-    "06:00": {
-      "condition": "cloud",
-      "tempsavg": 15
-    },
-    "09:00": {
-      "condition": "sun",
-      "tempsavg": 14
-    },
-    "12:00": {
-      "condition": "sun",
-      "tempsavg": 22
-    },
-    "15:00": {
-      "condition": "sun",
-      "tempsavg": 24
-    },
-    "18:00": {
-      "condition": "cloud",
-      "tempsavg": 16
-    },
-    "21:00": {
-      "condition": "rain",
-      "tempsavg": 11
-    }
-  },
-  "6": {
-    "00:00": {
-      "condition": "cloud",
-      "tempsavg": 14
-    },
-    "03:00": {
-      "condition": "rain",
-      "tempsavg": 17
-    },
-    "06:00": {
-      "condition": "sun",
-      "tempsavg": 15
-    },
-    "09:00": {
-      "condition": "sun",
-      "tempsavg": 20
-    },
-    "12:00": {
-      "condition": "rain",
-      "tempsavg": 15
-    },
-    "15:00": {
-      "condition": "sun",
-      "tempsavg": 19
-    },
-    "18:00": {
-      "condition": "cloud",
-      "tempsavg": 16
-    },
-    "21:00": {
-      "condition": "cloud",
-      "tempsavg": 13
+    "6": {
+      "00:00": {
+        "condition": "cloud",
+        "temp": 14
+      },
+      "03:00": {
+        "condition": "rain",
+        "temp": 17
+      },
+      "06:00": {
+        "condition": "sun",
+        "temp": 15
+      },
+      "09:00": {
+        "condition": "sun",
+        "temp": 20
+      },
+      "12:00": {
+        "condition": "rain",
+        "temp": 15
+      },
+      "15:00": {
+        "condition": "sun",
+        "temp": 19
+      },
+      "18:00": {
+        "condition": "cloud",
+        "temp": 16
+      },
+      "21:00": {
+        "condition": "cloud",
+        "temp": 13
+      }
     }
   }
 }

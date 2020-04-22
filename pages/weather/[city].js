@@ -6,10 +6,12 @@
 */
 
 import DailyWeatherData from '../../components/DailyWeatherData/DailyWeatherData'
+import OtherDaysWeather from '../../components/OtherDaysWeather/OtherDaysWeather'
 
 import Head from 'next/head'
 import Error from 'next/error'
 import fetch from 'node-fetch'
+import DailyWeatherVisual from '../../components/DailyWeatherVisual/DailyWeatherVisual'
 
 const CityPage = (props) => {
   if ('error' in props) return <Error {...props.error} />
@@ -20,7 +22,9 @@ const CityPage = (props) => {
         <title>Météo - {name}</title>
       </Head>
       <h1>Météo - {name}</h1>
+      <DailyWeatherVisual data={props.data} />
       <DailyWeatherData data={props.data} />
+      <OtherDaysWeather data={props.data} />
     </div>
   )
 }

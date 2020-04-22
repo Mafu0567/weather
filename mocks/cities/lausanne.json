@@ -1,242 +1,245 @@
 {
   "name": "Lausanne",
   "slug": "lausanne",
-  "0": {
-    "00:00": {
-      "condition": "sun",
-      "tempsavg": 14
+  "current": "",
+  "forecast": {
+    "0": {
+      "00:00": {
+        "condition": "sun",
+        "temp": 14
+      },
+      "03:00": {
+        "condition": "rain",
+        "temp": 16
+      },
+      "06:00": {
+        "condition": "rain",
+        "temp": 15
+      },
+      "09:00": {
+        "condition": "rain",
+        "temp": 14
+      },
+      "12:00": {
+        "condition": "sun",
+        "temp": 22
+      },
+      "15:00": {
+        "condition": "sun",
+        "temp": 24
+      },
+      "18:00": {
+        "condition": "sun",
+        "temp": 13
+      },
+      "21:00": {
+        "condition": "rain",
+        "temp": 17
+      }
     },
-    "03:00": {
-      "condition": "rain",
-      "tempsavg": 16
+    "1": {
+      "00:00": {
+        "condition": "cloud",
+        "temp": 11
+      },
+      "03:00": {
+        "condition": "sun",
+        "temp": 15
+      },
+      "06:00": {
+        "condition": "cloud",
+        "temp": 20
+      },
+      "09:00": {
+        "condition": "cloud",
+        "temp": 14
+      },
+      "12:00": {
+        "condition": "sun",
+        "temp": 22
+      },
+      "15:00": {
+        "condition": "cloud",
+        "temp": 20
+      },
+      "18:00": {
+        "condition": "cloud",
+        "temp": 16
+      },
+      "21:00": {
+        "condition": "sun",
+        "temp": 17
+      }
     },
-    "06:00": {
-      "condition": "rain",
-      "tempsavg": 15
+    "2": {
+      "00:00": {
+        "condition": "rain",
+        "temp": 15
+      },
+      "03:00": {
+        "condition": "sun",
+        "temp": 15
+      },
+      "06:00": {
+        "condition": "rain",
+        "temp": 14
+      },
+      "09:00": {
+        "condition": "sun",
+        "temp": 19
+      },
+      "12:00": {
+        "condition": "cloud",
+        "temp": 21
+      },
+      "15:00": {
+        "condition": "cloud",
+        "temp": 20
+      },
+      "18:00": {
+        "condition": "sun",
+        "temp": 16
+      },
+      "21:00": {
+        "condition": "rain",
+        "temp": 14
+      }
     },
-    "09:00": {
-      "condition": "rain",
-      "tempsavg": 14
+    "3": {
+      "00:00": {
+        "condition": "cloud",
+        "temp": 13
+      },
+      "03:00": {
+        "condition": "rain",
+        "temp": 18
+      },
+      "06:00": {
+        "condition": "sun",
+        "temp": 19
+      },
+      "09:00": {
+        "condition": "rain",
+        "temp": 19
+      },
+      "12:00": {
+        "condition": "cloud",
+        "temp": 20
+      },
+      "15:00": {
+        "condition": "cloud",
+        "temp": 20
+      },
+      "18:00": {
+        "condition": "rain",
+        "temp": 15
+      },
+      "21:00": {
+        "condition": "rain",
+        "temp": 18
+      }
     },
-    "12:00": {
-      "condition": "sun",
-      "tempsavg": 22
+    "4": {
+      "00:00": {
+        "condition": "rain",
+        "temp": 15
+      },
+      "03:00": {
+        "condition": "sun",
+        "temp": 16
+      },
+      "06:00": {
+        "condition": "sun",
+        "temp": 14
+      },
+      "09:00": {
+        "condition": "rain",
+        "temp": 19
+      },
+      "12:00": {
+        "condition": "cloud",
+        "temp": 19
+      },
+      "15:00": {
+        "condition": "rain",
+        "temp": 20
+      },
+      "18:00": {
+        "condition": "rain",
+        "temp": 15
+      },
+      "21:00": {
+        "condition": "cloud",
+        "temp": 11
+      }
     },
-    "15:00": {
-      "condition": "sun",
-      "tempsavg": 24
+    "5": {
+      "00:00": {
+        "condition": "sun",
+        "temp": 14
+      },
+      "03:00": {
+        "condition": "sun",
+        "temp": 14
+      },
+      "06:00": {
+        "condition": "sun",
+        "temp": 14
+      },
+      "09:00": {
+        "condition": "rain",
+        "temp": 16
+      },
+      "12:00": {
+        "condition": "sun",
+        "temp": 15
+      },
+      "15:00": {
+        "condition": "sun",
+        "temp": 16
+      },
+      "18:00": {
+        "condition": "cloud",
+        "temp": 17
+      },
+      "21:00": {
+        "condition": "sun",
+        "temp": 14
+      }
     },
-    "18:00": {
-      "condition": "sun",
-      "tempsavg": 13
-    },
-    "21:00": {
-      "condition": "rain",
-      "tempsavg": 17
-    }
-  },
-  "1": {
-    "00:00": {
-      "condition": "cloud",
-      "tempsavg": 11
-    },
-    "03:00": {
-      "condition": "sun",
-      "tempsavg": 15
-    },
-    "06:00": {
-      "condition": "cloud",
-      "tempsavg": 20
-    },
-    "09:00": {
-      "condition": "cloud",
-      "tempsavg": 14
-    },
-    "12:00": {
-      "condition": "sun",
-      "tempsavg": 22
-    },
-    "15:00": {
-      "condition": "cloud",
-      "tempsavg": 20
-    },
-    "18:00": {
-      "condition": "cloud",
-      "tempsavg": 16
-    },
-    "21:00": {
-      "condition": "sun",
-      "tempsavg": 17
-    }
-  },
-  "2": {
-    "00:00": {
-      "condition": "rain",
-      "tempsavg": 15
-    },
-    "03:00": {
-      "condition": "sun",
-      "tempsavg": 15
-    },
-    "06:00": {
-      "condition": "rain",
-      "tempsavg": 14
-    },
-    "09:00": {
-      "condition": "sun",
-      "tempsavg": 19
-    },
-    "12:00": {
-      "condition": "cloud",
-      "tempsavg": 21
-    },
-    "15:00": {
-      "condition": "cloud",
-      "tempsavg": 20
-    },
-    "18:00": {
-      "condition": "sun",
-      "tempsavg": 16
-    },
-    "21:00": {
-      "condition": "rain",
-      "tempsavg": 14
-    }
-  },
-  "3": {
-    "00:00": {
-      "condition": "cloud",
-      "tempsavg": 13
-    },
-    "03:00": {
-      "condition": "rain",
-      "tempsavg": 18
-    },
-    "06:00": {
-      "condition": "sun",
-      "tempsavg": 19
-    },
-    "09:00": {
-      "condition": "rain",
-      "tempsavg": 19
-    },
-    "12:00": {
-      "condition": "cloud",
-      "tempsavg": 20
-    },
-    "15:00": {
-      "condition": "cloud",
-      "tempsavg": 20
-    },
-    "18:00": {
-      "condition": "rain",
-      "tempsavg": 15
-    },
-    "21:00": {
-      "condition": "rain",
-      "tempsavg": 18
-    }
-  },
-  "4": {
-    "00:00": {
-      "condition": "rain",
-      "tempsavg": 15
-    },
-    "03:00": {
-      "condition": "sun",
-      "tempsavg": 16
-    },
-    "06:00": {
-      "condition": "sun",
-      "tempsavg": 14
-    },
-    "09:00": {
-      "condition": "rain",
-      "tempsavg": 19
-    },
-    "12:00": {
-      "condition": "cloud",
-      "tempsavg": 19
-    },
-    "15:00": {
-      "condition": "rain",
-      "tempsavg": 20
-    },
-    "18:00": {
-      "condition": "rain",
-      "tempsavg": 15
-    },
-    "21:00": {
-      "condition": "cloud",
-      "tempsavg": 11
-    }
-  },
-  "5": {
-    "00:00": {
-      "condition": "sun",
-      "tempsavg": 14
-    },
-    "03:00": {
-      "condition": "sun",
-      "tempsavg": 14
-    },
-    "06:00": {
-      "condition": "sun",
-      "tempsavg": 14
-    },
-    "09:00": {
-      "condition": "rain",
-      "tempsavg": 16
-    },
-    "12:00": {
-      "condition": "sun",
-      "tempsavg": 15
-    },
-    "15:00": {
-      "condition": "sun",
-      "tempsavg": 16
-    },
-    "18:00": {
-      "condition": "cloud",
-      "tempsavg": 17
-    },
-    "21:00": {
-      "condition": "sun",
-      "tempsavg": 14
-    }
-  },
-  "6": {
-    "00:00": {
-      "condition": "rain",
-      "tempsavg": 16
-    },
-    "03:00": {
-      "condition": "sun",
-      "tempsavg": 14
-    },
-    "06:00": {
-      "condition": "sun",
-      "tempsavg": 16
-    },
-    "09:00": {
-      "condition": "sun",
-      "tempsavg": 17
-    },
-    "12:00": {
-      "condition": "sun",
-      "tempsavg": 23
-    },
-    "15:00": {
-      "condition": "sun",
-      "tempsavg": 24
-    },
-    "18:00": {
-      "condition": "sun",
-      "tempsavg": 13
-    },
-    "21:00": {
-      "condition": "sun",
-      "tempsavg": 14
+    "6": {
+      "00:00": {
+        "condition": "rain",
+        "temp": 16
+      },
+      "03:00": {
+        "condition": "sun",
+        "temp": 14
+      },
+      "06:00": {
+        "condition": "sun",
+        "temp": 16
+      },
+      "09:00": {
+        "condition": "sun",
+        "temp": 17
+      },
+      "12:00": {
+        "condition": "sun",
+        "temp": 23
+      },
+      "15:00": {
+        "condition": "sun",
+        "temp": 24
+      },
+      "18:00": {
+        "condition": "sun",
+        "temp": 13
+      },
+      "21:00": {
+        "condition": "sun",
+        "temp": 14
+      }
     }
   }
 }

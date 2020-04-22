@@ -30,9 +30,9 @@ const WeatherIcons = ({
   style = {},
   fill = '#000',
   viewBox = '',
-  width = '25%',
+  width = '10%',
   className = '',
-  height = '25%',
+  height = '10%',
   transform = ''
 }) => (
   <svg
