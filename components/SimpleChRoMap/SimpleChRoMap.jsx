@@ -1,5 +1,5 @@
+/* eslint-disable max-len */
 import styles from './SimpleChRoMap.module.css'
-import geneve from '../../mocks/cities/geneve.json'
 
 const SimpleChRoMap = () => {
   const { cls1, cls2, cls3, cls4, cls5, cls6 } = styles

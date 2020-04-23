@@ -1,24 +1,29 @@
-import geneve from '../../mocks/cities/geneve.json'
-import morges from '../../mocks/cities/morges.json'
-import lausanne from '../../mocks/cities/lausanne.json'
-import sion from '../../mocks/cities/sion.json'
+import fetch from 'isomorphic-unfetch'
 
 import Head from 'next/head'
-import ListCities from '../../components/ListCities/ListCities'
 import SimpleChRoMap from '../../components/SimpleChRoMap/SimpleChRoMap'
+import ListCities from '../../components/ListCities/ListCities'
 
-
-export default function Home () {
+export default function Home (props) {
   return (
     <div className='container'>
       <Head>
-        <title>Météo</title>
+        <title>Météo - Région</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <h1>Météo</h1>
-      <input type='text' placeholder='Search..' />
-      <ListCities />
+      <h1>Météo - Région</h1>
+      <ListCities data={props.data} />
       <SimpleChRoMap />
     </div>
   )
+}
+
+export async function getServerSideProps () {
+  const res = await fetch(process.env.feedEnv + '/cities/ro')
+  const data = await res.json()
+  return {
+    props: {
+      data
+    }
+  }
 }

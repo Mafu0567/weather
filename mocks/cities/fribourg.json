@@ -1,121 +1,123 @@
 {
-  "name": "Lausanne",
-  "slug": "lausanne",
-  "current": "",
+  "name": "Fribourg",
+  "slug": "fribourg",
+  "current": {
+
+  },
   "forecast": {
     "0": {
       "00:00": {
-        "condition": "sun",
-        "temp": 14
+        "condition": "cloud",
+        "temp": 12
       },
       "03:00": {
-        "condition": "rain",
-        "temp": 16
+        "condition": "sun",
+        "temp": 12
       },
       "06:00": {
         "condition": "rain",
-        "temp": 15
+        "temp": 19
       },
       "09:00": {
-        "condition": "rain",
-        "temp": 14
+        "condition": "cloud",
+        "temp": 20
       },
       "12:00": {
-        "condition": "sun",
-        "temp": 22
-      },
-      "15:00": {
-        "condition": "sun",
+        "condition": "cloud",
         "temp": 24
       },
+      "15:00": {
+        "condition": "rain",
+        "temp": 23
+      },
       "18:00": {
-        "condition": "sun",
-        "temp": 13
+        "condition": "cloud",
+        "temp": 15
       },
       "21:00": {
-        "condition": "rain",
-        "temp": 17
+        "condition": "cloud",
+        "temp": 16
       }
     },
     "1": {
       "00:00": {
-        "condition": "cloud",
-        "temp": 11
-      },
-      "03:00": {
-        "condition": "sun",
-        "temp": 15
-      },
-      "06:00": {
-        "condition": "cloud",
-        "temp": 20
-      },
-      "09:00": {
-        "condition": "cloud",
-        "temp": 14
-      },
-      "12:00": {
-        "condition": "sun",
-        "temp": 22
-      },
-      "15:00": {
-        "condition": "cloud",
-        "temp": 20
-      },
-      "18:00": {
-        "condition": "cloud",
+        "condition": "rain",
         "temp": 16
       },
-      "21:00": {
-        "condition": "sun",
+      "03:00": {
+        "condition": "rain",
+        "temp": 16
+      },
+      "06:00": {
+        "condition": "rain",
         "temp": 17
+      },
+      "09:00": {
+        "condition": "sun",
+        "temp": 19
+      },
+      "12:00": {
+        "condition": "rain",
+        "temp": 21
+      },
+      "15:00": {
+        "condition": "rain",
+        "temp": 23
+      },
+      "18:00": {
+        "condition": "sun",
+        "temp": 18
+      },
+      "21:00": {
+        "condition": "cloud",
+        "temp": 11
       }
     },
     "2": {
       "00:00": {
-        "condition": "rain",
-        "temp": 15
+        "condition": "sun",
+        "temp": 12
       },
       "03:00": {
         "condition": "sun",
-        "temp": 15
-      },
-      "06:00": {
-        "condition": "rain",
         "temp": 14
       },
-      "09:00": {
-        "condition": "sun",
-        "temp": 19
-      },
-      "12:00": {
-        "condition": "cloud",
-        "temp": 21
-      },
-      "15:00": {
+      "06:00": {
         "condition": "cloud",
         "temp": 20
       },
+      "09:00": {
+        "condition": "sun",
+        "temp": 20
+      },
+      "12:00": {
+        "condition": "rain",
+        "temp": 25
+      },
+      "15:00": {
+        "condition": "cloud",
+        "temp": 24
+      },
       "18:00": {
         "condition": "sun",
-        "temp": 16
+        "temp": 15
       },
       "21:00": {
         "condition": "rain",
-        "temp": 14
+        "temp": 18
       }
     },
     "3": {
       "00:00": {
-        "condition": "cloud",
-        "temp": 13
+        "condition": "sun",
+        "temp": 10
       },
       "03:00": {
         "condition": "rain",
-        "temp": 18
+        "temp": 12
       },
       "06:00": {
-        "condition": "sun",
+        "condition": "rain",
         "temp": 19
       },
       "09:00": {
@@ -123,122 +125,122 @@
         "temp": 19
       },
       "12:00": {
-        "condition": "cloud",
-        "temp": 20
+        "condition": "sun",
+        "temp": 18
       },
       "15:00": {
-        "condition": "cloud",
-        "temp": 20
+        "condition": "rain",
+        "temp": 22
       },
       "18:00": {
-        "condition": "rain",
-        "temp": 15
+        "condition": "cloud",
+        "temp": 17
       },
       "21:00": {
         "condition": "rain",
-        "temp": 18
+        "temp": 11
       }
     },
     "4": {
       "00:00": {
         "condition": "rain",
-        "temp": 15
+        "temp": 16
       },
       "03:00": {
-        "condition": "sun",
+        "condition": "rain",
         "temp": 16
       },
       "06:00": {
         "condition": "sun",
-        "temp": 14
+        "temp": 13
       },
       "09:00": {
-        "condition": "rain",
-        "temp": 19
+        "condition": "cloud",
+        "temp": 18
       },
       "12:00": {
         "condition": "cloud",
-        "temp": 19
+        "temp": 17
       },
       "15:00": {
-        "condition": "rain",
-        "temp": 20
+        "condition": "sun",
+        "temp": 15
       },
       "18:00": {
-        "condition": "rain",
-        "temp": 15
+        "condition": "cloud",
+        "temp": 17
       },
       "21:00": {
         "condition": "cloud",
-        "temp": 11
+        "temp": 12
       }
     },
     "5": {
       "00:00": {
-        "condition": "sun",
-        "temp": 14
+        "condition": "cloud",
+        "temp": 10
       },
       "03:00": {
-        "condition": "sun",
-        "temp": 14
+        "condition": "cloud",
+        "temp": 12
       },
       "06:00": {
-        "condition": "sun",
-        "temp": 14
-      },
-      "09:00": {
-        "condition": "rain",
-        "temp": 16
-      },
-      "12:00": {
-        "condition": "sun",
+        "condition": "cloud",
         "temp": 15
       },
-      "15:00": {
-        "condition": "sun",
-        "temp": 16
-      },
-      "18:00": {
-        "condition": "cloud",
-        "temp": 17
-      },
-      "21:00": {
-        "condition": "sun",
-        "temp": 14
-      }
-    },
-    "6": {
-      "00:00": {
-        "condition": "rain",
-        "temp": 16
-      },
-      "03:00": {
-        "condition": "sun",
-        "temp": 14
-      },
-      "06:00": {
-        "condition": "sun",
-        "temp": 16
-      },
       "09:00": {
         "condition": "sun",
-        "temp": 17
+        "temp": 14
       },
       "12:00": {
         "condition": "sun",
-        "temp": 23
+        "temp": 22
       },
       "15:00": {
         "condition": "sun",
         "temp": 24
       },
       "18:00": {
-        "condition": "sun",
-        "temp": 13
+        "condition": "cloud",
+        "temp": 16
       },
       "21:00": {
-        "condition": "sun",
+        "condition": "rain",
+        "temp": 11
+      }
+    },
+    "6": {
+      "00:00": {
+        "condition": "cloud",
         "temp": 14
+      },
+      "03:00": {
+        "condition": "rain",
+        "temp": 17
+      },
+      "06:00": {
+        "condition": "sun",
+        "temp": 15
+      },
+      "09:00": {
+        "condition": "sun",
+        "temp": 20
+      },
+      "12:00": {
+        "condition": "rain",
+        "temp": 15
+      },
+      "15:00": {
+        "condition": "sun",
+        "temp": 19
+      },
+      "18:00": {
+        "condition": "cloud",
+        "temp": 16
+      },
+      "21:00": {
+        "condition": "cloud",
+        "temp": 13
       }
     }
   }
