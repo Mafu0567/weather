@@ -8,6 +8,7 @@ function forecastCalculator (day, length) {
     } else {
       day = 0
       forecastDays.push(day)
+      day++
     }
   }
   return forecastDays
@@ -21,7 +22,7 @@ const OtherDaysWeather = props => {
   return (
     <ul>
       {forecastDays.map(day => (
-        <li key={day}>
+        <li key={day.toString()}>
           <h2>{dayName[day]}</h2>
         </li>
       ))}

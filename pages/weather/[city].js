@@ -10,7 +10,7 @@ import OtherDaysWeather from '../../components/OtherDaysWeather/OtherDaysWeather
 
 import Head from 'next/head'
 import Error from 'next/error'
-import fetch from 'node-fetch'
+import fetch from 'isomorphic-unfetch'
 import DailyWeatherVisual from '../../components/DailyWeatherVisual/DailyWeatherVisual'
 
 const CityPage = (props) => {
@@ -33,6 +33,7 @@ export async function getServerSideProps (context) {
   const { query } = context
   const city = query?.city
   const endpoint = process.env.feedEnv + '/cities/' + city
+  console.log(endpoint)
   const apiResponse = await fetch(endpoint)
   const json = await apiResponse.json()
 

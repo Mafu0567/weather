@@ -7,7 +7,7 @@ const DailyWeatherData = props => {
   return (
     <ul>
       {Object.entries(forecast[currentDay]).map(time => (
-        <li key={time[0]}>
+        <li key={time.toString()}>
           <h2>{time[0]}</h2>
           <span>{time[1].temp}</span>
           <WeatherIcons name={time[1].condition} />
