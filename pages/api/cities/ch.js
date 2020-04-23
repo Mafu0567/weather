@@ -3,6 +3,7 @@ import bale from '../../../mocks/cities/bale.json'
 import berne from '../../../mocks/cities/berne.json'
 import zurich from '../../../mocks/cities/zurich.json'
 import lausanne from '../../../mocks/cities/lausanne.json'
+import chDesc from '../../../mocks/description/ch.json'
 
 const ch = {
   geneve,
@@ -13,5 +14,5 @@ const ch = {
 }
 
 export default (req, res) => {
-  res.status(200).json({ ...ch })
+  res.status(200).json({ cities: { ...ch }, description: chDesc })
 }

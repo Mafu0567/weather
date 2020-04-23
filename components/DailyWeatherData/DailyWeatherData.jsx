@@ -5,8 +5,8 @@ const DailyWeatherData = props => {
   const currentDay = date.getDay()
   const forecast = props.data.forecast
   return (
-    <ul>
-      {Object.entries(forecast[currentDay]).map(time => (
+    <ul className='grid'>
+      {Object.entries(forecast[currentDay].hourly).map(time => (
         <li key={time.toString()}>
           <h2>{time[0]}</h2>
           <span>{time[1].temp}</span>

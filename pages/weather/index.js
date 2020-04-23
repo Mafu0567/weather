@@ -12,7 +12,8 @@ export default function Home (props) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <h1>Météo - Région</h1>
-      <ListCities data={props.data} />
+      <article>{props.data.description.text}</article>
+      <ListCities data={props.data.cities} />
       <SimpleChRoMap />
     </div>
   )

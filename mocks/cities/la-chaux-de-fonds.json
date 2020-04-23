@@ -4,6 +4,9 @@
   "current": "",
   "forecast": {
     "0": {
+      "tempmin": "11",
+      "tempmax": "25",
+      "tempavg": "18",
       "00:00": {
         "condition": "cloud",
         "temp": 12
@@ -38,6 +41,9 @@
       }
     },
     "1": {
+      "tempmin": "11",
+      "tempmax": "25",
+      "tempavg": "18",
       "00:00": {
         "condition": "rain",
         "temp": 16
@@ -72,6 +78,9 @@
       }
     },
     "2": {
+      "tempmin": "11",
+      "tempmax": "25",
+      "tempavg": "18",
       "00:00": {
         "condition": "sun",
         "temp": 12
@@ -106,6 +115,9 @@
       }
     },
     "3": {
+      "tempmin": "11",
+      "tempmax": "25",
+      "tempavg": "18",
       "00:00": {
         "condition": "sun",
         "temp": 10
@@ -140,6 +152,9 @@
       }
     },
     "4": {
+      "tempmin": "11",
+      "tempmax": "25",
+      "tempavg": "18",
       "00:00": {
         "condition": "rain",
         "temp": 16
@@ -174,6 +189,9 @@
       }
     },
     "5": {
+      "tempmin": "11",
+      "tempmax": "25",
+      "tempavg": "18",
       "00:00": {
         "condition": "cloud",
         "temp": 10
@@ -208,6 +226,9 @@
       }
     },
     "6": {
+      "tempmin": "11",
+      "tempmax": "25",
+      "tempavg": "18",
       "00:00": {
         "condition": "cloud",
         "temp": 14

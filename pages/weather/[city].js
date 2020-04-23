@@ -33,7 +33,6 @@ export async function getServerSideProps (context) {
   const { query } = context
   const city = query?.city
   const endpoint = process.env.feedEnv + '/cities/' + city
-  console.log(endpoint)
   const apiResponse = await fetch(endpoint)
   const json = await apiResponse.json()
 

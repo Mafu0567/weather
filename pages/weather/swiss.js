@@ -8,11 +8,12 @@ export default function Home (props) {
   return (
     <div className='container'>
       <Head>
-        <title>Météo - Région</title>
+        <title>Météo - Suisse</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <h1>Météo - Région</h1>
-      <ListCities data={props.data} />
+      <h1>Météo - Suisse</h1>
+      <article>{props.data.description.text}</article>
+      <ListCities data={props.data.cities} />
       <SimpleChMap />
     </div>
   )
