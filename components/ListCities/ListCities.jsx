@@ -5,7 +5,6 @@ const ListCities = props => {
   const cities = { ...props.data }
   const date = new Date()
   const day = date.getDay()
-  const hour = date.getHours()
   return (
     <ul className='grid'>
       {Object.entries(cities).map(city => (

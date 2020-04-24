@@ -1,14 +1,13 @@
-import { getServerSideProps } from '../pages/post/[id]'
+import { getServerSideProps } from '../pages/weather/[city]'
 
-describe('PostPage getServerSideProps', () => {
+describe('CityPage getServerSideProps', () => {
   it('should return data and staticData', async () => {
     const feedMock = { api: 'data' }
     fetchMock.mockOnce(JSON.stringify(feedMock))
 
-    const context = { query: { id: '1' } }
+    const context = { query: { city: 'morges' } }
     const result = await getServerSideProps(context)
 
-    expect(result).toHaveProperty('props.staticData', 'hello world')
     expect(result).toHaveProperty('props.data', feedMock)
   })
 })
