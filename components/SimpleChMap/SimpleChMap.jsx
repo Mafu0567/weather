@@ -159,55 +159,65 @@ const SimpleChMap = props => {
         d='M473.13,224.84a5.28,5.28,0,0,0,6.53-.23c1-1,3.17-3.13,4.5-1.7,1.09,1.18,1.44,1.24,3.07,1.57,1.79.36,1.53,4.11,1.37,5.52-.33,2.9.57,5.63.33,8.6a5.46,5.46,0,0,0,.39,4.71c.73,1.1,1.28.94.85,2.32-.28.89.17.93.23,1.76s0,2.09-1.11,2.09c-1.67,0-1.91,1.09-2.35,2.42h-.13c0-.1-.19-.2-.23-.36-1-.26-1.08-2.47-1.44-3.27-.06-.76-.51-2,.1-2.71.32-.35.91-1.37.42-1.76-.88-.72-2.81-2-2.55-3.37.35-1.82,3.16-8.24,2.12-9.8s1.73-3.88-1.21-4.38c-3.37,1.25-6.19,3.67-9.56,4.77-.78.25-1.41-.14-2.25.36a9.35,9.35,0,0,1-5,1.11c-2.56.08-3.56-2.55-5.22-2.55-1,0-2.95.76-3.49-.16-1.49-1.06-4,.51-4-1.44-2.56-.65.09-2.79,1.24-3.33,1-.46,5.84-1.24,5.84-2.06-3.26-1.09-7.32,0-10.77-.69-1.13-.22-2.7.53-3.52.29-1.21-.34-1-1.51-3-.49-1.5.75-1.15,3.3-3.16,3.3-.43,1.74-1.25,2.45-3,2.45s-3.09.82-4.67.82h0c0-.4.69-.46.75-.72a13.46,13.46,0,0,0,.85-3.24c0-2-2-2.9-2.22-4.15a14.29,14.29,0,0,1,2.38-.75c0,.06,0,0,.07.07.11.43.55.71.55,1.27.44.58,1,2,1.89,1.5.38-.23.7-1.07,1.21-1.11.3,0,.79-.34.65-.69s-.52-.57-.62-1c-.15-.58.16-1,.16-1.54a1.81,1.81,0,0,0-.23-.88,8.46,8.46,0,0,1-.29-1.5,4.53,4.53,0,0,0,.16-1.83c-1.7-.43-1.2-2.69-2.28-3.07s-1.59-1.68-2.94-2.12c0-.37,2.59-.65,3.1-.65,2,0,.56,1,1.7,1.24s3.2,1.75,3.33,3.2c.38,4.18,6.58-3.53,7.44-4.77s1.4-2.5,2.64-2.09,3.26-3.43,4-4.38c1.38-1.74,1.25.34.69,1.47-1,2-.34,5.32-1.93,7l-4.8,5a.67.67,0,0,0,0,.2c1.56,0-.37,1,2.19,0,.7-.28,1.52.12,2.06-.16a4.5,4.5,0,0,1,6.1,1.73,16.06,16.06,0,0,0,2.19.1c.54,0,2,2.67,2.84,2.88.12.47.07,1,.2,1.47s.83.35,1.37.49c0,.11.1.35-.07.39-.21.84-1.91.27-2.51.52-.24.1-.1.46-.1.65,0,.75-1,1.39.46,1.34.79,0,1.15-.15,1.79.39,1,.81,1,1.06,2.41.36a7.69,7.69,0,0,1,3.92-.75l.62.43Z'
         transform='translate(-6.4 -4.49)'
       />
-      <g id='marker-Lausanne' data-tabIndex='0'>
+      <g id='marker-Lausanne'>
         <circle id='ville-Lausanne' cx='124.56' cy='346.98' r='6.83' />
-        <Link href='/weather/lausanne'>
-          <text
-            id='ville-Lausanne-2'
-            data-name='ville-Lausanne' className={marker} transform='translate(98.2 376.98)'
-          >
-            <a>Lausanne</a>
-          </text>
+        <Link href='/weather/lausanne' as='/weather/lausanne'>
+          <a>
+            <text
+              id='ville-Lausanne-2'
+              data-name='ville-Lausanne' className={marker} transform='translate(98.2 376.98)'
+            >
+              Lausanne
+            </text>
+          </a>
         </Link>
       </g>
       <g id='marker-Berne'>
         <circle id='ville-Berne' cx='274.8' cy='241.13' r='6.83' />
         <Link href='/weather/berne'>
-          <text
-            id='ville-Berne-2' data-name='ville-Berne'
-            className={marker} transform='translate(258.79 271.13)'
-          >Berne
-          </text>
+          <a>
+            <text
+              id='ville-Berne-2' data-name='ville-Berne'
+              className={marker} transform='translate(258.79 271.13)'
+            >Berne
+            </text>
+          </a>
         </Link>
       </g>
       <g id='marker-Zürich'>
         <circle id='ville-Zürich' cx='469.42' cy='121.62' r='6.83' />
         <Link href='zurich'>
-          <text
-            id='ville-Zürich-2' data-name='ville-Zürich'
-            className={marker} transform='translate(452.75 151.62)'
-          >Zürich
-          </text>
+          <a>
+            <text
+              id='ville-Zürich-2' data-name='ville-Zürich'
+              className={marker} transform='translate(452.75 151.62)'
+            >Zürich
+            </text>
+          </a>
         </Link>
       </g>
       <g id='marker-Genève'>
         <circle id='ville-Genève' cx='35.79' cy='425.51' r='6.83' />
         <Link href='/weather/geneve'>
-          <text
-            id='ville-Genève-2' data-name='ville-Genève'
-            className={marker} transform='translate(14.78 455.51)'
-          >Genève
-          </text>
+          <a>
+            <text
+              id='ville-Genève-2' data-name='ville-Genève'
+              className={marker} transform='translate(14.78 455.51)'
+            >Genève
+            </text>
+          </a>
         </Link>
       </g>
       <g id='marker-Bâle'>
         <circle id='ville-Bâle' cx='298.7' cy='66.99' r='6.83' />
         <Link href='/weather/bale'>
-          <text
-            id='ville-Bâle-2' data-name='ville-Bâle'
-            className={marker} transform='translate(286.69 96.99)'
-          >Bâle
-          </text>
+          <a>
+            <text
+              id='ville-Bâle-2' data-name='ville-Bâle'
+              className={marker} transform='translate(286.69 96.99)'
+            >Bâle
+            </text>
+          </a>
         </Link>
       </g>
     </svg>

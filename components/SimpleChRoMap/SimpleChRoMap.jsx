@@ -3,7 +3,7 @@
 import styles from './SimpleChRoMap.module.css'
 import Link from 'next/link'
 
-const SimpleChRoMap = props => {
+const SimpleChRoMap = () => {
   const { lake, canton, marker } = styles
   return (
     <svg
@@ -64,11 +64,13 @@ const SimpleChRoMap = props => {
       <g id='marker-Genève'>
         <circle id='ville-Genève' cx='28.38' cy='286.35' r='3' />
         <Link href='/weather/geneve'>
-          <text
-            id='ville-Genève-2' data-name='ville-Genève'
-            className={marker} transform='translate(7.36 296.35)'
-          ><a tabIndex='0'>Geneve</a>
-          </text>
+          <a>
+            <text
+              id='ville-Genève-2' data-name='ville-Genève'
+              className={marker} transform='translate(7.36 296.35)'
+            >Geneve
+            </text>
+          </a>
         </Link>
         {/* <path
           className={cls5}
@@ -80,21 +82,26 @@ const SimpleChRoMap = props => {
       <g id='marker-Lausanne'>
         <circle id='ville-Lausanne' cx='99.38' cy='218.35' r='3' />
         <Link href='/weather/lausanne'>
-          <text
-            id='ville-Lausanne-2' data-name='ville-Lausanne'
-            className={marker} transform='translate(73.02 228.35)'
-          ><a tabIndex='0'>Lausanne</a>
-          </text>
+          <a>
+            <text
+              id='ville-Lausanne-2' data-name='ville-Lausanne'
+              className={marker} transform='translate(73.02 228.35)'
+            >Lausanne
+            </text>
+          </a>
         </Link>
       </g>
       <g id='marker-Fribourg'>
         <circle id='ville-Fribourg' cx='185.38' cy='151.35' r='3' />
         <Link href='/weather/fribourg'>
-          <text
-            id='ville-Fribourg-2' data-name='ville-Fribourg'
-            className={marker} transform='translate(163.03 161.35)'
-          ><a tabIndex='0'>Fribourg</a>
-          </text>
+          <a tabIndex='0'>
+            <text
+              id='ville-Fribourg-2' data-name='ville-Fribourg'
+              className={marker} transform='translate(163.03 161.35)'
+            >
+              Fribourg
+            </text>
+          </a>
         </Link>
         <text
           className={marker}
@@ -104,11 +111,14 @@ const SimpleChRoMap = props => {
       <g id='marker-Montreux'>
         <circle id='ville-Montreux' cx='142.28' cy='236.25' r='3' />
         <Link href='/weather/montreux'>
-          <text
-            id='ville-Montreux-2'
-            data-name='ville-Montreux' className={marker} transform='translate(117.36 246.27)'
-          ><a tabIndex='0'>Montreux</a>
-          </text>
+          <a tabIndex='0'>
+            <text
+              id='ville-Montreux-2'
+              data-name='ville-Montreux' className={marker} transform='translate(117.36 246.27)'
+            >
+              Montreux
+            </text>
+          </a>
         </Link>
       </g>
     </svg>
