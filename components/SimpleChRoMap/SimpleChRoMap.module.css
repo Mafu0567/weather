@@ -1,24 +1,19 @@
-.cls1 {
-  fill: #76ccf4;
-}
-
-.cls1,
-.cls2,
-.cls3 {
+.canton,
+.lake {
   stroke: #1d1d1b;
   stroke-miterlimit: 10;
 }
 
-.cls2 {
+.canton {
   fill: #fff;
 }
 
-.cls3 {
+.lake {
   fill: #47bfef;
 }
 
 
-.cls4 {
+.marker {
   isolation: isolate;
   font-size: 1rem;
   font-family: ArialMT, Arial;
@@ -26,11 +21,13 @@
 }
 
 @media (min-width: 768px) {
-  .cls4 {
+  .marker {
     font-size: 0.8rem;
   }
 }
 
-.cls5 {
-  fill: #1d1d1b;
+@media (min-width: 1024px) {
+  .marker {
+    font-size: 0.6rem;
+  }
 }

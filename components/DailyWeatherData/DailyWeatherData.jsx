@@ -9,8 +9,8 @@ const DailyWeatherData = props => {
       {Object.entries(forecast[currentDay].hourly).map(time => (
         <li key={time.toString()}>
           <h2>{time[0]}</h2>
+          <WeatherIcons name={time[1].condition} width={25} height={25} />
           <span>{time[1].temp}</span>
-          <WeatherIcons name={time[1].condition} />
         </li>
       ))}
     </ul>
