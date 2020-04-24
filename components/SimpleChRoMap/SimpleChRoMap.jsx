@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 /* eslint-disable max-len */
 import styles from './SimpleChRoMap.module.css'
 import Link from 'next/link'
@@ -5,7 +6,15 @@ import Link from 'next/link'
 const SimpleChRoMap = props => {
   const { lake, canton, marker } = styles
   return (
-    <svg id='westSwitzerlandMap' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 379.26 362.65'>
+    <svg
+      id='westSwitzerlandMap'
+      xmlns='http://www.w3.org/2000/svg'
+      viewBox='0 0 379.26 362.65'
+      role='img'
+      aria-labelledby='uniqueTitleId uniqueDescId'
+    >
+      <title id='uniqueTitleId'>Carte de la Suisse romande</title>
+      <desc id='uniqueDescId'>Une carte de la suisse romande, avec les cantons délimités, et 4 villes marquées par des points.</desc>
       <g id='lac-leman'>
         <polygon
           className={lake}
@@ -58,7 +67,7 @@ const SimpleChRoMap = props => {
           <text
             id='ville-Genève-2' data-name='ville-Genève'
             className={marker} transform='translate(7.36 296.35)'
-          >Geneve
+          ><a tabIndex='0'>Geneve</a>
           </text>
         </Link>
         {/* <path
@@ -74,7 +83,7 @@ const SimpleChRoMap = props => {
           <text
             id='ville-Lausanne-2' data-name='ville-Lausanne'
             className={marker} transform='translate(73.02 228.35)'
-          >Lausanne
+          ><a tabIndex='0'>Lausanne</a>
           </text>
         </Link>
       </g>
@@ -84,7 +93,7 @@ const SimpleChRoMap = props => {
           <text
             id='ville-Fribourg-2' data-name='ville-Fribourg'
             className={marker} transform='translate(163.03 161.35)'
-          >Fribourg
+          ><a tabIndex='0'>Fribourg</a>
           </text>
         </Link>
         <text
@@ -98,7 +107,7 @@ const SimpleChRoMap = props => {
           <text
             id='ville-Montreux-2'
             data-name='ville-Montreux' className={marker} transform='translate(117.36 246.27)'
-          >Montreux
+          ><a tabIndex='0'>Montreux</a>
           </text>
         </Link>
       </g>

@@ -14,3 +14,12 @@ body {
   grid-template-columns: repeat(2, 1fr);
   list-style-type: none;
 }
+
+.hidden {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}

@@ -17,12 +17,14 @@ const Header = () => {
   const { header, list } = styles
   return (
     <header className={header}>
-      <ul className={list}>
-        <HeaderLink href='/index' as='/'>Home</HeaderLink>
-        <HeaderLink href='/weather' as='/weather'>Région</HeaderLink>
-        <HeaderLink href='/weather/swiss' as='/weather/swiss'>Suisse</HeaderLink>
-        <li className={listItem}><WeatherTeaser /></li>
-      </ul>
+      <nav>
+        <ul className={list}>
+          <HeaderLink href='/index' as='/'>Home</HeaderLink>
+          <HeaderLink href='/weather' as='/weather'>Région</HeaderLink>
+          <HeaderLink href='/weather/swiss' as='/weather/swiss'>Suisse</HeaderLink>
+          <li className={listItem}><WeatherTeaser /></li>
+        </ul>
+      </nav>
     </header>
   )
 }
