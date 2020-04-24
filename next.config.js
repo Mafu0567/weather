@@ -19,5 +19,8 @@ switch (FEED_ENV) {
 module.exports = {
   env: {
     feedEnv: feedEnv
+  },
+  devIndicators: {
+    autoPrerender: false
   }
 }
