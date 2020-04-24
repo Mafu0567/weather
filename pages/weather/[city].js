@@ -1,10 +1,5 @@
-/* Page design:
-  - Header
-  - CityName
-  - CityWeatherView
-  - DailyWeatherView for [city].json
-*/
 
+import DailyWeatherData from '../../components/DailyWeatherData/DailyWeatherData'
 import OtherDaysWeather from '../../components/OtherDaysWeather/OtherDaysWeather'
 
 import Head from 'next/head'
@@ -20,6 +15,7 @@ const CityPage = (props) => {
         <title>Météo - {name}</title>
       </Head>
       <h1>Météo - {name}</h1>
+      <DailyWeatherData data={props.data} />
       <OtherDaysWeather data={props.data} />
     </div>
   )

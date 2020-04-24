@@ -20,3 +20,8 @@
   font-family: ArialMT, Arial;
   text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 0 2px 0 #fff;
 }
+@media (min-width: 768px) {
+  .cls3 {
+    font-size: 1rem;
+  }
+}

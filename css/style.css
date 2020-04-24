@@ -12,8 +12,12 @@ body {
   padding: 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  list-style-type: none;
 }
 
-ul {
-  list-style-type: none;
+.map-text-marker {
+  isolation: isolate;
+  font-size: 1rem;
+  font-family: ArialMT, Arial;
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 0 2px 0 #fff;
 }

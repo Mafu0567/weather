@@ -3,7 +3,7 @@ import styles from './SimpleChMap.module.css'
 import geneve from '../../mocks/cities/geneve.json'
 
 const { cls1, cls2, cls3 } = styles
-const SimpleChMap = () => {
+const SimpleChMap = props => {
   return (
     <svg id='switzerlandMap' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 824.72 531.82'>
       <path
@@ -162,8 +162,7 @@ const SimpleChMap = () => {
         <text
           className={cls3}
           transform='translate(121.22 331.98)'
-        >b
-        </text>
+        />
       </g>
       <g id='marker-Berne'>
         <circle id='ville-Berne' cx='274.8' cy='241.13' r='6.83' />
@@ -175,8 +174,7 @@ const SimpleChMap = () => {
         <text
           className={cls3}
           transform='translate(271.46 226.13)'
-        >b
-        </text>
+        />
       </g>
       <g id='marker-Zürich'>
         <circle id='ville-Zürich' cx='469.42' cy='121.62' r='6.83' />
@@ -188,8 +186,7 @@ const SimpleChMap = () => {
         <text
           className={cls3}
           transform='translate(466.08 106.62)'
-        >b
-        </text>
+        />
       </g>
       <g id='marker-Genève'>
         <circle id='ville-Genève' cx='35.79' cy='425.51' r='6.83' />
@@ -213,72 +210,7 @@ const SimpleChMap = () => {
         <text
           className={cls3}
           transform='translate(294.37 51.99)'
-        >H
-        </text>
-      </g>
-      <g id='marker-Saint-Gall'>
-        <circle id='ville-Saint-Gall' cx='633.32' cy='97.72' r='6.83' />
-        <text
-          id='ville-Saint-Gall-2'
-          data-name='ville-Saint-Gall' className={cls3} transform='translate(606.98 127.72)'
-        >Saint-Gall
-        </text>
-        <text
-          className={cls3} transform='translate(629.98 82.72)'
-        >b
-        </text>
-      </g>
-      <g id='marker-Lugano'>
-        <circle id='ville-Lugano' cx='544.54' cy='480.14' r='6.83' />
-        <text
-          id='ville-Lugano-2' data-name='ville-Lugano'
-          className={cls3} transform='translate(524.52 510.14)'
-        >Lugano
-        </text>
-        <text
-          className={cls3}
-          transform='translate(541.2 465.14)'
-        >b
-        </text>
-      </g>
-      <g id='marker-Coire'>
-        <circle id='ville-Coire' cx='646.98' cy='254.79' r='6.83' />
-        <text
-          id='ville-Coire-2' data-name='ville-Coire'
-          className={cls3} transform='translate(632.64 284.79)'
-        >Coire
-        </text>
-        <text
-          className={cls3}
-          transform='translate(643.64 239.79)'
-        >b
-        </text>
-      </g>
-      <g id='marker-Neuchâtel'>
-        <circle id='ville-Neuchâtel' cx='179.19' cy='217.23' r='6.83' />
-        <text
-          id='ville-Neuchâtel-2'
-          data-name='ville-Neuchâtel' className={cls3} transform='translate(152.17 247.23)'
-        >Neuchâtel
-        </text>
-        <text
-          className={cls3}
-          transform='translate(175.85 202.23)'
-        >b
-        </text>
-      </g>
-      <g id='marker-Sion'>
-        <circle id='ville-Sion' cx='254.31' cy='418.68' r='6.83' />
-        <text
-          id='ville-Sion-2' data-name='ville-Sion'
-          className={cls3} transform='translate(242.3 448.68)'
-        >Sion
-        </text>
-        <text
-          className={cls3}
-          transform='translate(250.97 403.68)'
-        >b
-        </text>
+        />
       </g>
     </svg>
   )

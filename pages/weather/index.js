@@ -14,7 +14,7 @@ export default function Home (props) {
       <h1>Météo - Région</h1>
       <article>{props.data.description.text}</article>
       <ListCities data={props.data.cities} />
-      <SimpleChRoMap />
+      <SimpleChRoMap data={props.data.cities} />
     </div>
   )
 }

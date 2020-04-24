@@ -4,11 +4,11 @@ import berne from '../../../mocks/cities/berne.json'
 import zurich from '../../../mocks/cities/zurich.json'
 import lausanne from '../../../mocks/cities/lausanne.json'
 import fribourg from '../../../mocks/cities/fribourg.json'
-import morges from '../../../mocks/cities/morges.json'
+import montreux from '../../../mocks/cities/montreux.json'
 import sion from '../../../mocks/cities/sion.json'
 import lachaux from '../../../mocks/cities/la-chaux-de-fonds.json'
 
-const cities = { geneve, bale, berne, zurich, lausanne, fribourg, morges, sion, lachaux }
+const cities = { geneve, bale, berne, zurich, lausanne, fribourg, montreux, sion, lachaux }
 
 export default (req, res) => {
   const { query: { city } } = req

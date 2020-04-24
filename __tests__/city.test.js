@@ -5,7 +5,7 @@ describe('CityPage getServerSideProps', () => {
     const feedMock = { api: 'data' }
     fetchMock.mockOnce(JSON.stringify(feedMock))
 
-    const context = { query: { city: 'morges' } }
+    const context = { query: { city: 'montreux' } }
     const result = await getServerSideProps(context)
 
     expect(result).toHaveProperty('props.data', feedMock)

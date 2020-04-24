@@ -17,17 +17,20 @@
   fill: #47bfef;
 }
 
+
 .cls4 {
   isolation: isolate;
-  font-size: 12px;
+  font-size: 1rem;
   font-family: ArialMT, Arial;
   text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 0 2px 0 #fff;
 }
 
-.cls5 {
-  fill: #1d1d1b;
+@media (min-width: 768px) {
+  .cls4 {
+    font-size: 0.8rem;
+  }
 }
 
-.cls6 {
-  fill: #e41d13;
+.cls5 {
+  fill: #1d1d1b;
 }

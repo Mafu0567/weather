@@ -280,8 +280,8 @@ exports[`DailyWeatherData component should render 1`] = `
           "tempmin": "11",
         },
       },
-      "name": "Morges",
-      "slug": "morges",
+      "name": "Montreux",
+      "slug": "montreux",
     }
   }
 >

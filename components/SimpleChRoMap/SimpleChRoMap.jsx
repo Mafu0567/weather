@@ -1,8 +1,9 @@
 /* eslint-disable max-len */
 import styles from './SimpleChRoMap.module.css'
+import Link from 'next/link'
 
-const SimpleChRoMap = () => {
-  const { cls1, cls2, cls3, cls4, cls5, cls6 } = styles
+const SimpleChRoMap = props => {
+  const { cls1, cls2, cls3, cls4 } = styles
   return (
     <svg id='westSwitzerlandMap' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 379.26 362.65'>
       <g id='lac-leman'>
@@ -53,115 +54,53 @@ const SimpleChRoMap = () => {
       />
       <g id='marker-Genève'>
         <circle id='ville-Genève' cx='28.38' cy='286.35' r='3' />
-        <text
-          id='ville-Genève-2' data-name='ville-Genève'
-          className={cls4} transform='translate(7.36 296.35)'
-        >Genève
-        </text>
-        <path
+        <Link href={`/weather/${props.data.geneve.slug}`}>
+          <text
+            id='ville-Genève-2' data-name='ville-Genève'
+            className={cls4} transform='translate(7.36 296.35)'
+          >{props.data.geneve.name}
+          </text>
+        </Link>
+        {/* <path
           className={cls5}
           d='M26.1,257.4a8,8,0,0,0-8,8v.4h0a6.1,6.1,0,0,0,0,12.2H36.3a7.6,7.6,0,1,0,0-15.2,8.08,8.08,0,0,0-2.7.5A7.72,7.72,0,0,0,26.1,257.4Zm0,1.5a6.55,6.55,0,0,1,6.4,5.4l.2,1,.9-.5a6.44,6.44,0,0,1,2.8-.7,6.1,6.1,0,1,1,0,12.2H18.1a4.6,4.6,0,0,1,0-9.2,1.7,1.7,0,0,1,.7.1l1.1.2-.2-1a4.1,4.1,0,0,1-.1-1.1A6.47,6.47,0,0,1,26.1,258.9Z'
           transform='translate(0.38 0.35)'
-        />
+        /> */}
         {/* <img src={`${geneve.monday['12:00'].condition}.svg`} alt={`${geneve.monday['12:00'].condition}`} transform='translate(0.38 0.35)' /> */}
       </g>
       <g id='marker-Lausanne'>
         <circle id='ville-Lausanne' cx='99.38' cy='218.35' r='3' />
-        <text
-          id='ville-Lausanne-2' data-name='ville-Lausanne'
-          className={cls4} transform='translate(73.02 228.35)'
-        >Lausanne
-        </text>
-        <path
-          id='sun' className={cls5}
-          d='M98.9,178.8a1.3,1.3,0,0,0-1.1,1.3v2.5a1.25,1.25,0,1,0,2.5.1h0v-2.5a1.31,1.31,0,0,0-1.2-1.3C99,178.8,99,178.8,98.9,178.8Zm-9.9,4a1.27,1.27,0,0,0-1,1.5,1,1,0,0,0,.4.7l1.8,1.8a1.28,1.28,0,1,0,2-1.6L92,185l-1.8-1.8a1.49,1.49,0,0,0-.9-.4H89Zm19.7,0a.84.84,0,0,0-.7.4l-1.8,1.8a1.28,1.28,0,0,0,1.6,2l.2-.2,1.8-1.8a1.27,1.27,0,0,0,0-1.8,1.09,1.09,0,0,0-.9-.4Zm-9.6,2.3a8.8,8.8,0,1,0,8.8,8.8A8.88,8.88,0,0,0,99.1,185.1Zm0,2.5a6.3,6.3,0,1,1-6.3,6.3A6.34,6.34,0,0,1,99.1,187.6ZM85,192.7a1.26,1.26,0,0,0,.3,2.5h2.5a1.25,1.25,0,0,0,.1-2.5H85Zm25.1,0a1.26,1.26,0,1,0,.3,2.5h2.5a1.25,1.25,0,1,0,.1-2.5h-2.9Zm-19.3,8a1,1,0,0,0-.7.4l-1.8,1.7a1.27,1.27,0,0,0,1.8,1.8l1.8-1.8A1.37,1.37,0,0,0,92,201,2.38,2.38,0,0,0,90.8,200.7Zm16,0a1.27,1.27,0,0,0-1,1.5,1,1,0,0,0,.4.7l1.8,1.8a1.27,1.27,0,1,0,1.8-1.8l-1.8-1.7a1.28,1.28,0,0,0-1-.4C106.9,200.7,106.9,200.7,106.8,200.7ZM98.9,204a1.3,1.3,0,0,0-1.1,1.3v2.5a1.25,1.25,0,0,0,2.5.1h0v-2.5a1.31,1.31,0,0,0-1.2-1.3C99,204,99,204,98.9,204Z'
-          transform='translate(0.38 0.35)'
-        />
-      </g>
-      <g id='marker-La_Chaux-de-Fonds' data-name='marker-La Chaux-de-Fonds'>
-        <circle id='ville-La_Chaux-de-Fonds' data-name='ville-La Chaux-de-Fonds' cx='129.38' cy='88.35' r='3' />
-        <text
-          id='ville-La_Chaux-de-Fonds-2' data-name='ville-La Chaux-de-Fonds' className={cls4}
-          transform='translate(76.34 98.35)'
-        >La Chaux-de-Fonds
-        </text>
-        <text
-          className={cls4}
-          transform='translate(126.04 80.35)'
-        >b
-        </text>
+        <Link href={`/weather/${props.data.lausanne.slug}`}>
+          <text
+            id='ville-Lausanne-2' data-name='ville-Lausanne'
+            className={cls4} transform='translate(73.02 228.35)'
+          >Lausanne
+          </text>
+        </Link>
       </g>
       <g id='marker-Fribourg'>
         <circle id='ville-Fribourg' cx='185.38' cy='151.35' r='3' />
-        <text
-          id='ville-Fribourg-2' data-name='ville-Fribourg'
-          className={cls4} transform='translate(163.03 161.35)'
-        >Fribourg
-        </text>
+        <Link href={`/weather/${props.data.fribourg.slug}`}>
+          <text
+            id='ville-Fribourg-2' data-name='ville-Fribourg'
+            className={cls4} transform='translate(163.03 161.35)'
+          >Fribourg
+          </text>
+        </Link>
         <text
           className={cls4}
           transform='translate(182.04 143.35)'
-        >b
-        </text>
-      </g>
-      <g id='marker-Delémont'>
-        <circle id='ville-Delémont' cx='209.38' cy='30.35' r='3' />
-        <text
-          id='ville-Delémont-2' data-name='ville-Delémont'
-          className={cls4} transform='translate(183.7 40.35)'
-        >Delémont
-        </text>
-        <text
-          className={cls4}
-          transform='translate(206.04 22.35)'
-        >b
-        </text>
-      </g>
-      <g id='marker-Sion'>
-        <circle id='ville-Sion' cx='210.38' cy='285.35' r='3' />
-        <text
-          id='ville-Sion-2' data-name='ville-Sion' className={cls4}
-          transform='translate(198.37 295.35)'
-        >Sion
-        </text>
-        <text className={cls4} transform='translate(207.04 277.35)'>b</text>
-      </g>
-      <g id='marker-Martigny'>
-        <circle id='ville-Martigny' cx='167.38' cy='300.35' r='3' />
-        <text
-          id='ville-Martigny-2' data-name='ville-Martigny'
-          className={cls4} transform='translate(144.37 310.35)'
-        >Martigny
-        </text>
-        <text
-          className={cls4}
-          transform='translate(164.04 292.35)'
-        >b
-        </text>
-      </g>
-      <g id='marker-Yverdon-les-Bains'>
-        <circle id='ville-Yverdon-les-Bains' cx='104.38' cy='159.35' r='3' />
-        <text
-          id='ville-Yverdon-les-Bains-2'
-          data-name='ville-Yverdon-les-Bains' className={cls4} transform='translate(55.68 169.35)'
-        >
-          <tspan className={cls6}>Y</tspan>
-          <tspan x='7.34' y='0'>verdon-les-Bains</tspan>
-        </text>
-        <text className={cls4} transform='translate(101.04 151.35)'>b</text>
+        />
       </g>
       <g id='marker-Montreux'>
         <circle id='ville-Montreux' cx='142.28' cy='236.25' r='3' />
-        <text
-          id='ville-Montreux-2'
-          data-name='ville-Montreux' className={cls4} transform='translate(117.36 246.27)'
-        >Montreux
-        </text>
-        <path
-          id='sun-2' data-name='sun' className={cls5}
-          d='M141.7,197.8a1.07,1.07,0,0,0-1.1,1.2v2.5a1.25,1.25,0,1,0,2.5.1h0V199a1.31,1.31,0,0,0-1.2-1.3A.31.31,0,0,1,141.7,197.8Zm-10,4a1.27,1.27,0,0,0-1,1.5,1,1,0,0,0,.4.7l1.8,1.8a1.36,1.36,0,0,0,1.8.2,1.27,1.27,0,0,0,.2-1.8l-.2-.2-1.8-1.8a1.49,1.49,0,0,0-.9-.4h-.3Zm19.8,0a.84.84,0,0,0-.7.4l-1.8,1.7a1.28,1.28,0,1,0,1.6,2l.2-.2,1.8-1.8a1.27,1.27,0,0,0,0-1.8,1.09,1.09,0,0,0-.9-.4A.31.31,0,0,1,151.5,201.8Zm-9.7,2.3a8.8,8.8,0,1,0,8.8,8.8A8.81,8.81,0,0,0,141.8,204.1Zm0,2.5a6.3,6.3,0,1,1-6.3,6.3A6.27,6.27,0,0,1,141.8,206.6Zm-14.1,5a1.26,1.26,0,1,0,.3,2.5h2.5a1.25,1.25,0,1,0,.1-2.5h-2.9Zm25.2,0a1.26,1.26,0,0,0,.3,2.5h2.5a1.25,1.25,0,1,0,.1-2.5h-2.9Zm-19.3,8.1a1,1,0,0,0-.7.4l-1.8,1.7a1.27,1.27,0,0,0,1.8,1.8l1.8-1.8a1.37,1.37,0,0,0,.1-1.8A1.8,1.8,0,0,0,133.6,219.7Zm16,0a1.27,1.27,0,0,0-1,1.5,1,1,0,0,0,.4.7l1.8,1.8a1.27,1.27,0,0,0,1.8-1.8l-1.8-1.7a1.28,1.28,0,0,0-1-.4A.31.31,0,0,0,149.6,219.7Zm-7.9,3.3a1.07,1.07,0,0,0-1.1,1.2v2.5a1.18,1.18,0,0,0,1.2,1.3,1.24,1.24,0,0,0,1.3-1.2h0v-2.5a1.31,1.31,0,0,0-1.2-1.3C141.8,222.9,141.7,222.9,141.7,223Z'
-          transform='translate(0.38 0.35)'
-        />
+        <Link href={`/weather/${props.data.montreux.slug}`}>
+          <text
+            id='ville-Montreux-2'
+            data-name='ville-Montreux' className={cls4} transform='translate(117.36 246.27)'
+          >Montreux
+          </text>
+        </Link>
       </g>
     </svg>
   )
