@@ -3,10 +3,22 @@
 exports[`SimpleChMap component should render 1`] = `
 <SimpleChMap>
   <svg
+    aria-labelledby="uniqueTitleId uniqueDescId"
     id="switzerlandMap"
+    role="img group"
     viewBox="0 0 824.72 531.82"
     xmlns="http://www.w3.org/2000/svg"
   >
+    <title
+      id="uniqueTitleId"
+    >
+      Carte de la Suisse
+    </title>
+    <desc
+      id="uniqueDescId"
+    >
+      Une carte de la suisse, avec les cantons délimités, et 5 villes marquées par des points.
+    </desc>
     <path
       className="canton"
       d="M461.64,225l.09,1.68,6.59,2.22,8-1.3c1.15-.42,1.62-1.86,2.94-2.31a8,8,0,0,1,1.92-.49h0c3.54-1.32,5.25.3,6.07,3.79.43,1.81-1.2,4.58-.52,6.34.08.21,5.74.85,6.72,1.24,1.6.63,3,1.43,4.83,1.11,2.87-.51,4.54-1.68,6.36,1,1.11,1.64-1.2,3.33-.16,5.2,2,.56,3,2.31,4.44-.52.62-1.25,7.45-5.31,8.35-5.1,1.23.29,1.65,4,4.11,3,.8-.32,2.07-3,3-2.32,2.4,1.91,3.68.13,3.56,4-.09,2.65-.07,6.12,2.9,3.14H531c1.16,1.57,0,4.71.59,6.5.64,2.08,5.56-2.76,6.79-3.33l8.29-4.61h0a25,25,0,0,0,3.46-1.67c.44-.29,2.37-.44,2-1.31s-1.07-1.44-1-2.61c.62-1.12,2-4.51,1.5-5.75-.56-1.46-3.22-1-4-2.48-.32-.63-1.57-2.26-1.57-2.84,0-.93,1.11-.81,1.11-1.41s-.69-.94-1.17-1.24a14.81,14.81,0,0,1-3.92-4.31c-.54-1-.08-2.09-1-2.84-.71-.57-3-1-2.06-1.9,1.42-1.42.73-1.79,1.7-3.24,2.07-1,4.25-.34,6.36-1.86s1.34-2.71,2.09-4.94a15.45,15.45,0,0,1,1.79-3,5.72,5.72,0,0,1,2.71-2.61c1.85-1.17-3.78-1-3.78-2.45a4.15,4.15,0,0,1,1.57-2.55,3.55,3.55,0,0,0,1.17-3.2c-.09-2.07-1.81-1.13-.78-3.46.23-1.06.18-2.43.85-3.33a18.79,18.79,0,0,0,1.79-2.19,43.57,43.57,0,0,1,4.18-6.47h0l-1.76-2-5.48-.42c-1.15-3.77-.33-4.81,1.63-7.65,1.81-2.63-5.67-1.8-6.72-1.8-7.63,0-18.82,6.53-23.75-1.8h0A70.52,70.52,0,0,0,510,167.19c-2.58,1.17-8.74,3.29-8.74,6.63,0,1.92,1.53,3.8,2.38,5.49h0l.52,1.21c0,.42.34,1.72,0,2a2.15,2.15,0,0,1-.46.33,3,3,0,0,0-1.08.82c-2,2.72.13,4-2.77,6.21-2.25,1.74-3.39,4.87-5.19,6.8s-2.74.54-4.5.23c-1.43-.25-2,.23-3.23.88-1.9,1-4.85,4.13-7.24,2.94-.37-1,.12-3-.46-3.73-2.25,0-4.79,1-6.87,1.65l-5.52-2.83h0l-2.89-3c-.11-.13-.21-.22-.33-.34l-3.33-.21h0l-1.74.94-5.81,3.69c-1.1.7-1.57,3.83-2.15,5.1s-2.07.69-2.61,1.83a1.65,1.65,0,0,0,.23,1.93c1.22,1.28,3.92.38,5.42.13,3-.5,3.71-.44,6,1.44,2.68,2.07,4.46,4.48,6.65,6.93,1.33,1.49,4.5,1.44,4.6,3.56a7.79,7.79,0,0,1-1.21,3.33c-1.31,1.61-3.17,2.08-5.16,2.65-1,.28-2,1.3-2.84,1.21h0Z"
@@ -191,18 +203,23 @@ exports[`SimpleChMap component should render 1`] = `
         r="6.83"
       />
       <Link
+        as="/weather/lausanne"
         href="/weather/lausanne"
       >
-        <text
-          className="marker"
-          data-name="ville-Lausanne"
-          id="ville-Lausanne-2"
+        <a
+          href="/weather/lausanne"
           onClick={[Function]}
           onMouseEnter={[Function]}
-          transform="translate(98.2 376.98)"
         >
-          Lausanne
-        </text>
+          <text
+            className="marker"
+            data-name="ville-Lausanne"
+            id="ville-Lausanne-2"
+            transform="translate(98.2 376.98)"
+          >
+            Lausanne
+          </text>
+        </a>
       </Link>
     </g>
     <g
@@ -217,16 +234,20 @@ exports[`SimpleChMap component should render 1`] = `
       <Link
         href="/weather/berne"
       >
-        <text
-          className="marker"
-          data-name="ville-Berne"
-          id="ville-Berne-2"
+        <a
+          href="/weather/berne"
           onClick={[Function]}
           onMouseEnter={[Function]}
-          transform="translate(258.79 271.13)"
         >
-          Berne
-        </text>
+          <text
+            className="marker"
+            data-name="ville-Berne"
+            id="ville-Berne-2"
+            transform="translate(258.79 271.13)"
+          >
+            Berne
+          </text>
+        </a>
       </Link>
     </g>
     <g
@@ -241,16 +262,20 @@ exports[`SimpleChMap component should render 1`] = `
       <Link
         href="zurich"
       >
-        <text
-          className="marker"
-          data-name="ville-Zürich"
-          id="ville-Zürich-2"
+        <a
+          href="zurich"
           onClick={[Function]}
           onMouseEnter={[Function]}
-          transform="translate(452.75 151.62)"
         >
-          Zürich
-        </text>
+          <text
+            className="marker"
+            data-name="ville-Zürich"
+            id="ville-Zürich-2"
+            transform="translate(452.75 151.62)"
+          >
+            Zürich
+          </text>
+        </a>
       </Link>
     </g>
     <g
@@ -265,16 +290,20 @@ exports[`SimpleChMap component should render 1`] = `
       <Link
         href="/weather/geneve"
       >
-        <text
-          className="marker"
-          data-name="ville-Genève"
-          id="ville-Genève-2"
+        <a
+          href="/weather/geneve"
           onClick={[Function]}
           onMouseEnter={[Function]}
-          transform="translate(14.78 455.51)"
         >
-          Genève
-        </text>
+          <text
+            className="marker"
+            data-name="ville-Genève"
+            id="ville-Genève-2"
+            transform="translate(14.78 455.51)"
+          >
+            Genève
+          </text>
+        </a>
       </Link>
     </g>
     <g
@@ -289,16 +318,20 @@ exports[`SimpleChMap component should render 1`] = `
       <Link
         href="/weather/bale"
       >
-        <text
-          className="marker"
-          data-name="ville-Bâle"
-          id="ville-Bâle-2"
+        <a
+          href="/weather/bale"
           onClick={[Function]}
           onMouseEnter={[Function]}
-          transform="translate(286.69 96.99)"
         >
-          Bâle
-        </text>
+          <text
+            className="marker"
+            data-name="ville-Bâle"
+            id="ville-Bâle-2"
+            transform="translate(286.69 96.99)"
+          >
+            Bâle
+          </text>
+        </a>
       </Link>
     </g>
   </svg>

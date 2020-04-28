@@ -2,7 +2,11 @@
 
 Voici le README.md pour le projet TPI de la météo pour les sites de TX Group.
 
-## Getting Started
+## Prérequis
+
+Installez [https://nodejs.org/](Node.js).
+
+## Installation
 
 Tout d'abord, lancez la commande
 
@@ -16,8 +20,6 @@ Pour lancer le site web en mode développement (ou pour le tester)
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 Et ouvrez le lien [http://localhost:3000](http://localhost:3000) avec votre navigateur pour voir le résultat.

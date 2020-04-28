@@ -3,10 +3,22 @@
 exports[`SimpleChRoMap component should render 1`] = `
 <SimpleChRoMap>
   <svg
+    aria-labelledby="uniqueTitleId uniqueDescId"
     id="westSwitzerlandMap"
+    role="img"
     viewBox="0 0 379.26 362.65"
     xmlns="http://www.w3.org/2000/svg"
   >
+    <title
+      id="uniqueTitleId"
+    >
+      Carte de la Suisse romande
+    </title>
+    <desc
+      id="uniqueDescId"
+    >
+      Une carte de la suisse romande, avec les cantons délimités, et 4 villes marquées par des points.
+    </desc>
     <g
       id="lac-leman"
     >
@@ -74,16 +86,20 @@ exports[`SimpleChRoMap component should render 1`] = `
       <Link
         href="/weather/geneve"
       >
-        <text
-          className="marker"
-          data-name="ville-Genève"
-          id="ville-Genève-2"
+        <a
+          href="/weather/geneve"
           onClick={[Function]}
           onMouseEnter={[Function]}
-          transform="translate(7.36 296.35)"
         >
-          Geneve
-        </text>
+          <text
+            className="marker"
+            data-name="ville-Genève"
+            id="ville-Genève-2"
+            transform="translate(7.36 296.35)"
+          >
+            Geneve
+          </text>
+        </a>
       </Link>
     </g>
     <g
@@ -98,16 +114,20 @@ exports[`SimpleChRoMap component should render 1`] = `
       <Link
         href="/weather/lausanne"
       >
-        <text
-          className="marker"
-          data-name="ville-Lausanne"
-          id="ville-Lausanne-2"
+        <a
+          href="/weather/lausanne"
           onClick={[Function]}
           onMouseEnter={[Function]}
-          transform="translate(73.02 228.35)"
         >
-          Lausanne
-        </text>
+          <text
+            className="marker"
+            data-name="ville-Lausanne"
+            id="ville-Lausanne-2"
+            transform="translate(73.02 228.35)"
+          >
+            Lausanne
+          </text>
+        </a>
       </Link>
     </g>
     <g
@@ -122,16 +142,21 @@ exports[`SimpleChRoMap component should render 1`] = `
       <Link
         href="/weather/fribourg"
       >
-        <text
-          className="marker"
-          data-name="ville-Fribourg"
-          id="ville-Fribourg-2"
+        <a
+          href="/weather/fribourg"
           onClick={[Function]}
           onMouseEnter={[Function]}
-          transform="translate(163.03 161.35)"
+          tabIndex="0"
         >
-          Fribourg
-        </text>
+          <text
+            className="marker"
+            data-name="ville-Fribourg"
+            id="ville-Fribourg-2"
+            transform="translate(163.03 161.35)"
+          >
+            Fribourg
+          </text>
+        </a>
       </Link>
       <text
         className="marker"
@@ -150,16 +175,21 @@ exports[`SimpleChRoMap component should render 1`] = `
       <Link
         href="/weather/montreux"
       >
-        <text
-          className="marker"
-          data-name="ville-Montreux"
-          id="ville-Montreux-2"
+        <a
+          href="/weather/montreux"
           onClick={[Function]}
           onMouseEnter={[Function]}
-          transform="translate(117.36 246.27)"
+          tabIndex="0"
         >
-          Montreux
-        </text>
+          <text
+            className="marker"
+            data-name="ville-Montreux"
+            id="ville-Montreux-2"
+            transform="translate(117.36 246.27)"
+          >
+            Montreux
+          </text>
+        </a>
       </Link>
     </g>
   </svg>

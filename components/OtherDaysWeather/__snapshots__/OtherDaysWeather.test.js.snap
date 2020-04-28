@@ -289,6 +289,45 @@ exports[`OtherDaysWeather component should render 1`] = `
     className="grid"
   >
     <li
+      key="2"
+    >
+      <h2>
+        Mar
+      </h2>
+      <span>
+        11
+        ° / 
+        25
+        °
+      </span>
+    </li>
+    <li
+      key="3"
+    >
+      <h2>
+        Mer
+      </h2>
+      <span>
+        11
+        ° / 
+        25
+        °
+      </span>
+    </li>
+    <li
+      key="4"
+    >
+      <h2>
+        Jeu
+      </h2>
+      <span>
+        11
+        ° / 
+        25
+        °
+      </span>
+    </li>
+    <li
       key="5"
     >
       <h2>
@@ -306,45 +345,6 @@ exports[`OtherDaysWeather component should render 1`] = `
     >
       <h2>
         Sam
-      </h2>
-      <span>
-        11
-        ° / 
-        25
-        °
-      </span>
-    </li>
-    <li
-      key="0"
-    >
-      <h2>
-        Dim
-      </h2>
-      <span>
-        11
-        ° / 
-        25
-        °
-      </span>
-    </li>
-    <li
-      key="1"
-    >
-      <h2>
-        Lun
-      </h2>
-      <span>
-        11
-        ° / 
-        25
-        °
-      </span>
-    </li>
-    <li
-      key="2"
-    >
-      <h2>
-        Mar
       </h2>
       <span>
         11
