@@ -25,3 +25,27 @@ npm run dev
 Et ouvrez le lien [http://localhost:3000](http://localhost:3000) avec votre navigateur pour voir le résultat.
 
 Vous pouvez commencer par modifier la page `pages/index.js`. La page se met à jour automatiquement vous quand vous la modifierez.
+
+## Version Production
+
+Lancez
+
+```bash
+npm build # minifie, optimise le code
+
+npm start # même chose que npm run dev sauf qu'il lance le site en mode production
+```
+
+## Tests unitaires
+
+Lancez
+
+```bash
+npm test
+
+# ou
+
+npm test:coverage
+```
+
+Pour exécuter les tests unitaires et voir le pourcentage de la couverture des tests.

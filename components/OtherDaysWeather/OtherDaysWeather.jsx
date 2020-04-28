@@ -19,7 +19,7 @@ const OtherDaysWeather = props => {
   const currentDay = date.getDay()
   const dayName = ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam']
   const forecastDays = forecastCalculator(currentDay, 5)
-  const forecast = props.data.forecast
+  const forecast = { ...props.data }
   return (
     <ul className='grid'>
       {forecastDays.map(day => (

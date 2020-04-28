@@ -8,15 +8,15 @@ import fetch from 'isomorphic-unfetch'
 
 const CityPage = (props) => {
   if ('error' in props) return <Error {...props.error} />
-  const { name } = props.data
+  const { name, forecast } = props.data
   return (
     <div className='container'>
       <Head>
         <title>Météo - {name}</title>
       </Head>
       <h1>Météo - {name}</h1>
-      <DailyWeatherData data={props.data} />
-      <OtherDaysWeather data={props.data} />
+      <DailyWeatherData data={forecast} />
+      <OtherDaysWeather data={forecast} />
     </div>
   )
 }

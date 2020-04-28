@@ -84,7 +84,8 @@ exports[`SimpleChRoMap component should render 1`] = `
         r="3"
       />
       <Link
-        href="/weather/geneve"
+        as="/weather/geneve"
+        href="/weather/[city]"
       >
         <a
           href="/weather/geneve"
@@ -112,7 +113,8 @@ exports[`SimpleChRoMap component should render 1`] = `
         r="3"
       />
       <Link
-        href="/weather/lausanne"
+        as="/weather/lausanne"
+        href="/weather/[city]"
       >
         <a
           href="/weather/lausanne"
@@ -140,7 +142,8 @@ exports[`SimpleChRoMap component should render 1`] = `
         r="3"
       />
       <Link
-        href="/weather/fribourg"
+        as="/weather/fribourg"
+        href="/weather/[city]"
       >
         <a
           href="/weather/fribourg"
@@ -173,7 +176,8 @@ exports[`SimpleChRoMap component should render 1`] = `
         r="3"
       />
       <Link
-        href="/weather/montreux"
+        as="/weather/montreux"
+        href="/weather/[city]"
       >
         <a
           href="/weather/montreux"

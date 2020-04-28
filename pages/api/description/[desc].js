@@ -1,7 +1,6 @@
 import ro from '../../../mocks/description/ro.json'
-import zu from '../../../mocks/description/zu.json'
 
-const descs = { ro, zu }
+const descs = { ro }
 
 export default (req, res) => {
   const { query: { desc } } = req

@@ -3,7 +3,8 @@ import WeatherIcons from '../WeatherIcons/WeatherIcons'
 const DailyWeatherData = props => {
   const date = new Date()
   const currentDay = date.getDay()
-  const forecast = props.data.forecast
+  // const forecast = props.data.forecast
+  const forecast = { ...props.data }
   return (
     <ul className='grid'>
       {Object.entries(forecast[currentDay].hourly).map(time => (

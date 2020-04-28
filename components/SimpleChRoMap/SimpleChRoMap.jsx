@@ -63,7 +63,7 @@ const SimpleChRoMap = () => {
       />
       <g id='marker-Genève'>
         <circle id='ville-Genève' cx='28.38' cy='286.35' r='3' />
-        <Link href='/weather/geneve'>
+        <Link href='/weather/[city]' as='/weather/geneve'>
           <a>
             <text
               id='ville-Genève-2' data-name='ville-Genève'
@@ -81,7 +81,7 @@ const SimpleChRoMap = () => {
       </g>
       <g id='marker-Lausanne'>
         <circle id='ville-Lausanne' cx='99.38' cy='218.35' r='3' />
-        <Link href='/weather/lausanne'>
+        <Link href='/weather/[city]' as='/weather/lausanne'>
           <a>
             <text
               id='ville-Lausanne-2' data-name='ville-Lausanne'
@@ -93,7 +93,7 @@ const SimpleChRoMap = () => {
       </g>
       <g id='marker-Fribourg'>
         <circle id='ville-Fribourg' cx='185.38' cy='151.35' r='3' />
-        <Link href='/weather/fribourg'>
+        <Link href='/weather/[city]' as='/weather/fribourg'>
           <a tabIndex='0'>
             <text
               id='ville-Fribourg-2' data-name='ville-Fribourg'
@@ -110,7 +110,7 @@ const SimpleChRoMap = () => {
       </g>
       <g id='marker-Montreux'>
         <circle id='ville-Montreux' cx='142.28' cy='236.25' r='3' />
-        <Link href='/weather/montreux'>
+        <Link href='/weather/[city]' as='/weather/montreux'>
           <a tabIndex='0'>
             <text
               id='ville-Montreux-2'
