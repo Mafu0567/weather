@@ -1,4 +1,3 @@
-
 import DailyWeatherData from '../../components/DailyWeatherData/DailyWeatherData'
 import OtherDaysWeather from '../../components/OtherDaysWeather/OtherDaysWeather'
 
@@ -24,7 +23,7 @@ const CityPage = (props) => {
 export async function getServerSideProps (context) {
   const { query } = context
   const city = query?.city
-  const endpoint = process.env.feedEnv + '/cities/' + city
+  const endpoint = process.env.feedEnv + '/city/' + city
   const apiResponse = await fetch(endpoint)
   const json = await apiResponse.json()
 

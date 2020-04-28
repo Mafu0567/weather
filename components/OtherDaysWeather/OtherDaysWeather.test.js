@@ -1,9 +1,9 @@
 import { mount } from 'enzyme'
-import montreux from '../../mocks/cities/montreux.json'
+import geneve from '../../mocks/cities/geneve.json'
 import OtherDaysWeather from './OtherDaysWeather'
 
 describe('OtherDaysWeather component', () => {
-  const mountComponent = mount(<OtherDaysWeather data={montreux} />)
+  const mountComponent = mount(<OtherDaysWeather data={geneve} />)
   it('should render', () => {
     expect(mountComponent).toMatchSnapshot()
   })
