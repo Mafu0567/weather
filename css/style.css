@@ -8,6 +8,12 @@ body {
   padding: 0 1rem;
 }
 
+@media (min-width: 1025px) {
+  .content-wrapper {
+    padding: 0 30rem;
+  }
+}
+
 .grid {
   padding: 0;
   display: grid;

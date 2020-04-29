@@ -11,6 +11,12 @@
     display: flex;
 }
 
+@media (min-width: 1025px) {
+    .list {
+      padding: 0 29.5rem;
+    }
+  }
+
 .listItem {
     list-style: none;
     padding: 0 .5rem;

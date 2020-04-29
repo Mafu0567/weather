@@ -16,7 +16,7 @@ const ListCities = props => {
   const date = new Date()
   const day = date.getDay()
   const hour = date.getHours()
-  const interval = (hour < 10) ? `0${hour - (hour % 3)}:00` : `${hour - (hour % 3)}:00`
+  const interval = (hour < 12) ? `0${hour - (hour % 3)}:00` : `${hour - (hour % 3)}:00`
   return (
     <ul className='grid'>
       {Object.entries({ ...props.data }).map(city => (

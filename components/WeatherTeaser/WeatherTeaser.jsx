@@ -6,12 +6,12 @@ const fetcher = url => fetch(url).then(r => r.json())
 
 const WeatherTeaser = () => {
   const { data, error } = useSWR('/api/city/lausanne', fetcher)
+  if (error) return <div>échec du chargement</div>
+  if (!data) return <div>chargement...</div>
   const date = new Date()
   const day = date.getDay()
   const hour = date.getHours()
-  const interval = (hour < 10) ? `0${hour - (hour % 3)}:00` : `${hour - (hour % 3)}:00`
-  if (error) return <div>échec du chargement</div>
-  if (!data) return <div>chargement...</div>
+  const interval = (hour < 12) ? `0${hour - (hour % 3)}:00` : `${hour - (hour % 3)}:00`
   const { forecast } = data
   return (
     <div className='teaser'>
