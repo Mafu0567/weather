@@ -1,0 +1,353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OtherDaysWeather component should render 1`] = `
+<OtherDaysWeather
+  data={
+    Object {
+      "0": Object {
+        "hourly": Object {
+          "00:00": Object {
+            "condition": "sun",
+            "temp": 14,
+          },
+          "03:00": Object {
+            "condition": "rain",
+            "temp": 16,
+          },
+          "06:00": Object {
+            "condition": "rain",
+            "temp": 15,
+          },
+          "09:00": Object {
+            "condition": "rain",
+            "temp": 14,
+          },
+          "12:00": Object {
+            "condition": "sun",
+            "temp": 22,
+          },
+          "15:00": Object {
+            "condition": "sun",
+            "temp": 24,
+          },
+          "18:00": Object {
+            "condition": "sun",
+            "temp": 13,
+          },
+          "21:00": Object {
+            "condition": "rain",
+            "temp": 17,
+          },
+        },
+        "tempavg": "18",
+        "tempmax": "25",
+        "tempmin": "11",
+      },
+      "1": Object {
+        "hourly": Object {
+          "00:00": Object {
+            "condition": "cloud",
+            "temp": 11,
+          },
+          "03:00": Object {
+            "condition": "sun",
+            "temp": 15,
+          },
+          "06:00": Object {
+            "condition": "cloud",
+            "temp": 20,
+          },
+          "09:00": Object {
+            "condition": "cloud",
+            "temp": 14,
+          },
+          "12:00": Object {
+            "condition": "sun",
+            "temp": 22,
+          },
+          "15:00": Object {
+            "condition": "cloud",
+            "temp": 20,
+          },
+          "18:00": Object {
+            "condition": "cloud",
+            "temp": 16,
+          },
+          "21:00": Object {
+            "condition": "sun",
+            "temp": 17,
+          },
+        },
+        "tempavg": "18",
+        "tempmax": "25",
+        "tempmin": "11",
+      },
+      "2": Object {
+        "hourly": Object {
+          "00:00": Object {
+            "condition": "rain",
+            "temp": 15,
+          },
+          "03:00": Object {
+            "condition": "sun",
+            "temp": 15,
+          },
+          "06:00": Object {
+            "condition": "rain",
+            "temp": 14,
+          },
+          "09:00": Object {
+            "condition": "sun",
+            "temp": 19,
+          },
+          "12:00": Object {
+            "condition": "cloud",
+            "temp": 21,
+          },
+          "15:00": Object {
+            "condition": "cloud",
+            "temp": 20,
+          },
+          "18:00": Object {
+            "condition": "sun",
+            "temp": 16,
+          },
+          "21:00": Object {
+            "condition": "rain",
+            "temp": 14,
+          },
+        },
+        "tempavg": "18",
+        "tempmax": "25",
+        "tempmin": "11",
+      },
+      "3": Object {
+        "hourly": Object {
+          "00:00": Object {
+            "condition": "cloud",
+            "temp": 13,
+          },
+          "03:00": Object {
+            "condition": "rain",
+            "temp": 18,
+          },
+          "06:00": Object {
+            "condition": "sun",
+            "temp": 19,
+          },
+          "09:00": Object {
+            "condition": "rain",
+            "temp": 19,
+          },
+          "12:00": Object {
+            "condition": "cloud",
+            "temp": 20,
+          },
+          "15:00": Object {
+            "condition": "cloud",
+            "temp": 20,
+          },
+          "18:00": Object {
+            "condition": "rain",
+            "temp": 15,
+          },
+          "21:00": Object {
+            "condition": "rain",
+            "temp": 18,
+          },
+        },
+        "tempavg": "18",
+        "tempmax": "25",
+        "tempmin": "11",
+      },
+      "4": Object {
+        "hourly": Object {
+          "00:00": Object {
+            "condition": "cloud",
+            "temp": 13,
+          },
+          "03:00": Object {
+            "condition": "rain",
+            "temp": 18,
+          },
+          "06:00": Object {
+            "condition": "sun",
+            "temp": 19,
+          },
+          "09:00": Object {
+            "condition": "rain",
+            "temp": 19,
+          },
+          "12:00": Object {
+            "condition": "cloud",
+            "temp": 20,
+          },
+          "15:00": Object {
+            "condition": "cloud",
+            "temp": 20,
+          },
+          "18:00": Object {
+            "condition": "rain",
+            "temp": 15,
+          },
+          "21:00": Object {
+            "condition": "rain",
+            "temp": 18,
+          },
+        },
+        "tempavg": "18",
+        "tempmax": "25",
+        "tempmin": "11",
+      },
+      "5": Object {
+        "hourly": Object {
+          "00:00": Object {
+            "condition": "cloud",
+            "temp": 13,
+          },
+          "03:00": Object {
+            "condition": "rain",
+            "temp": 18,
+          },
+          "06:00": Object {
+            "condition": "sun",
+            "temp": 19,
+          },
+          "09:00": Object {
+            "condition": "rain",
+            "temp": 19,
+          },
+          "12:00": Object {
+            "condition": "cloud",
+            "temp": 20,
+          },
+          "15:00": Object {
+            "condition": "cloud",
+            "temp": 20,
+          },
+          "18:00": Object {
+            "condition": "rain",
+            "temp": 15,
+          },
+          "21:00": Object {
+            "condition": "rain",
+            "temp": 18,
+          },
+        },
+        "tempavg": "18",
+        "tempmax": "25",
+        "tempmin": "11",
+      },
+      "6": Object {
+        "hourly": Object {
+          "00:00": Object {
+            "condition": "rain",
+            "temp": 16,
+          },
+          "03:00": Object {
+            "condition": "sun",
+            "temp": 14,
+          },
+          "06:00": Object {
+            "condition": "sun",
+            "temp": 16,
+          },
+          "09:00": Object {
+            "condition": "sun",
+            "temp": 17,
+          },
+          "12:00": Object {
+            "condition": "sun",
+            "temp": 23,
+          },
+          "15:00": Object {
+            "condition": "sun",
+            "temp": 24,
+          },
+          "18:00": Object {
+            "condition": "sun",
+            "temp": 13,
+          },
+          "21:00": Object {
+            "condition": "sun",
+            "temp": 14,
+          },
+        },
+        "tempavg": "18",
+        "tempmax": "25",
+        "tempmin": "11",
+      },
+    }
+  }
+>
+  <ul
+    className="grid"
+  >
+    <li
+      key="3"
+    >
+      <h2>
+        Mer
+      </h2>
+      <span>
+        11
+        ° / 
+        25
+        °
+      </span>
+    </li>
+    <li
+      key="4"
+    >
+      <h2>
+        Jeu
+      </h2>
+      <span>
+        11
+        ° / 
+        25
+        °
+      </span>
+    </li>
+    <li
+      key="5"
+    >
+      <h2>
+        Ven
+      </h2>
+      <span>
+        11
+        ° / 
+        25
+        °
+      </span>
+    </li>
+    <li
+      key="6"
+    >
+      <h2>
+        Sam
+      </h2>
+      <span>
+        11
+        ° / 
+        25
+        °
+      </span>
+    </li>
+    <li
+      key="0"
+    >
+      <h2>
+        Dim
+      </h2>
+      <span>
+        11
+        ° / 
+        25
+        °
+      </span>
+    </li>
+  </ul>
+</OtherDaysWeather>
+`;
