@@ -4,11 +4,11 @@ Voici le README.md pour le projet TPI de la météo pour les sites de TX Group.
 
 ## Prérequis
 
-Installez [https://nodejs.org/](Node.js).
+Installez [Node.js](https://nodejs.org/).
 
 ## Installation
 
-Tout d'abord, lancez la commande
+Tout d'abord, lancez la commande dans votre terminal (MacOS, Distribution de Linux) ou invite de commandes (Windows) dans le dossier du projet.
 
 ```bash
 npm install
@@ -23,8 +23,6 @@ npm run dev
 ```
 
 Et ouvrez le lien [http://localhost:3000](http://localhost:3000) avec votre navigateur pour voir le résultat.
-
-Vous pouvez commencer par modifier la page `pages/index.js`. La page se met à jour automatiquement vous quand vous la modifierez.
 
 ## Version Production
 
