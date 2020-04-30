@@ -311,6 +311,7 @@ exports[`DailyWeatherData component should render 1`] = `
       </WeatherIcons>
       <span>
         13
+        °
       </span>
     </li>
     <li
@@ -341,6 +342,7 @@ exports[`DailyWeatherData component should render 1`] = `
       </WeatherIcons>
       <span>
         18
+        °
       </span>
     </li>
     <li
@@ -371,6 +373,7 @@ exports[`DailyWeatherData component should render 1`] = `
       </WeatherIcons>
       <span>
         19
+        °
       </span>
     </li>
     <li
@@ -401,6 +404,7 @@ exports[`DailyWeatherData component should render 1`] = `
       </WeatherIcons>
       <span>
         19
+        °
       </span>
     </li>
     <li
@@ -431,6 +435,7 @@ exports[`DailyWeatherData component should render 1`] = `
       </WeatherIcons>
       <span>
         20
+        °
       </span>
     </li>
     <li
@@ -461,6 +466,7 @@ exports[`DailyWeatherData component should render 1`] = `
       </WeatherIcons>
       <span>
         20
+        °
       </span>
     </li>
     <li
@@ -491,6 +497,7 @@ exports[`DailyWeatherData component should render 1`] = `
       </WeatherIcons>
       <span>
         15
+        °
       </span>
     </li>
     <li
@@ -521,6 +528,7 @@ exports[`DailyWeatherData component should render 1`] = `
       </WeatherIcons>
       <span>
         18
+        °
       </span>
     </li>
   </ul>
