@@ -1,4 +1,4 @@
-// return array of [length] number of days starting from current day integer
+// Retourne array de [length] nombre de jours commençant par le jour "day"
 function forecastCalculator (day, length) {
   const forecastDays = []
   for (let index = 0; index < length; index++) {

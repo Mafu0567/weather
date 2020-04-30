@@ -16,6 +16,7 @@ const ListCities = props => {
   const date = new Date()
   const day = date.getDay()
   const hour = date.getHours()
+  // Ajoute le zéro si avant 10 heures pour convenir au format des données mock
   const interval = (hour < 12) ? `0${hour - (hour % 3)}:00` : `${hour - (hour % 3)}:00`
   return (
     <ul className='grid'>
@@ -24,7 +25,7 @@ const ListCities = props => {
           <div>
             <h2>{city[1].name}</h2>
             <WeatherIcons name={city[1].forecast[day].hourly[interval].condition} />
-            <p>{city[1].forecast[day].tempmin} / {city[1].forecast[day].tempmax}</p>
+            <p>{city[1].forecast[day].tempmin}° / {city[1].forecast[day].tempmax}°</p>
           </div>
         </ListLink>
       ))}

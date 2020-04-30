@@ -16,7 +16,7 @@ const WeatherTeaser = () => {
   return (
     <div className='teaser'>
       <WeatherIcons name={forecast[day].hourly[interval].condition} width={18} height={18} />
-      <span>{forecast[day].tempmin} / {forecast[day].tempmax}</span>
+      <span>{forecast[day].tempmin}° / {forecast[day].tempmax}°</span>
     </div>
   )
 }
